@@ -1,5 +1,4 @@
-﻿using backend.DTOs;
-using backend.Services;
+﻿using backend.Services.UserServices;
 using Microsoft.AspNetCore.Identity.Data;
 using Microsoft.AspNetCore.Mvc;
 
@@ -17,7 +16,7 @@ namespace backend.Controllers
         }
 
         [HttpPost("login")]
-        public async Task<IActionResult> Login([FromBody] DTOs.LoginRequest request)
+        public async Task<IActionResult> Login([FromBody] DTOs.UserDros.LoginRequest request)
         {
             var response = await _auth.AuthenticateAsync(request);
             if (response == null)
@@ -26,7 +25,7 @@ namespace backend.Controllers
         }
 
         [HttpPost("register")]
-        public async Task<IActionResult> Register([FromBody] DTOs.RegisterRequest request)
+        public async Task<IActionResult> Register([FromBody] DTOs.UserDros.RegisterRequest request)
         {
             if (string.IsNullOrWhiteSpace(request.Role) ||
                 !new[] { "Student", "Teacher","Admin" }.Contains(request.Role))

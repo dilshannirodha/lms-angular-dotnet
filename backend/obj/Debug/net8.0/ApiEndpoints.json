@@ -9,7 +9,7 @@
     "Parameters": [
       {
         "Name": "request",
-        "Type": "backend.DTOs.LoginRequest",
+        "Type": "backend.DTOs.UserDros.LoginRequest",
         "IsRequired": true
       }
     ],
@@ -25,7 +25,100 @@
     "Parameters": [
       {
         "Name": "request",
-        "Type": "backend.DTOs.RegisterRequest",
+        "Type": "backend.DTOs.UserDros.RegisterRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "backend.Controllers.StudentFilesController",
+    "Method": "GetAll",
+    "RelativePath": "api/StudentFiles",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[backend.DTOs.StudentFilesDtos.StudentFileDto, backend, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "backend.Controllers.StudentFilesController",
+    "Method": "Upload",
+    "RelativePath": "api/StudentFiles",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "StudentId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "File",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "backend.DTOs.StudentFilesDtos.StudentFileDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "backend.Controllers.StudentFilesController",
+    "Method": "GetById",
+    "RelativePath": "api/StudentFiles/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "backend.DTOs.StudentFilesDtos.StudentFileDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "backend.Controllers.StudentFilesController",
+    "Method": "Delete",
+    "RelativePath": "api/StudentFiles/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
         "IsRequired": true
       }
     ],
@@ -41,7 +134,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.List\u00601[[backend.DTOs.StudentResponseDto, backend, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.List\u00601[[backend.DTOs.StudentDtos.StudentResponseDto, backend, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -61,13 +154,13 @@
     "Parameters": [
       {
         "Name": "createDto",
-        "Type": "backend.DTOs.CreateStudentDto",
+        "Type": "backend.DTOs.StudentDtos.CreateStudentDto",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "backend.DTOs.StudentResponseDto",
+        "Type": "backend.DTOs.StudentDtos.StudentResponseDto",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -93,7 +186,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "backend.DTOs.StudentResponseDto",
+        "Type": "backend.DTOs.StudentDtos.StudentResponseDto",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -118,13 +211,13 @@
       },
       {
         "Name": "updateDto",
-        "Type": "backend.DTOs.UpdateStudentDto",
+        "Type": "backend.DTOs.StudentDtos.UpdateStudentDto",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "backend.DTOs.StudentResponseDto",
+        "Type": "backend.DTOs.StudentDtos.StudentResponseDto",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -166,7 +259,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.List\u00601[[backend.DTOs.StudentUploadResponseDto, backend, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.List\u00601[[backend.DTOs.StudentUploadDtos.StudentUploadResponseDto, backend, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -191,13 +284,13 @@
       },
       {
         "Name": "createDto",
-        "Type": "backend.DTOs.CreateStudentUploadDto",
+        "Type": "backend.DTOs.StudentUploadDtos.CreateStudentUploadDto",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "backend.DTOs.StudentUploadResponseDto",
+        "Type": "backend.DTOs.StudentUploadDtos.StudentUploadResponseDto",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -228,7 +321,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "backend.DTOs.StudentUploadResponseDto",
+        "Type": "backend.DTOs.StudentUploadDtos.StudentUploadResponseDto",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -253,7 +346,7 @@
       },
       {
         "Name": "updateDto",
-        "Type": "backend.DTOs.UpdateStudentUploadDto",
+        "Type": "backend.DTOs.StudentUploadDtos.UpdateStudentUploadDto",
         "IsRequired": true
       },
       {
@@ -264,7 +357,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "backend.DTOs.StudentUploadResponseDto",
+        "Type": "backend.DTOs.StudentUploadDtos.StudentUploadResponseDto",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -290,6 +383,218 @@
       {
         "Name": "studentId",
         "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "backend.Controllers.TeacherFilesController",
+    "Method": "GetAll",
+    "RelativePath": "api/TeacherFiles",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[backend.DTOs.TeacherFileDtos.TeacherFileDto, backend, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "backend.Controllers.TeacherFilesController",
+    "Method": "Upload",
+    "RelativePath": "api/TeacherFiles",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "TeacherId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "File",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "backend.DTOs.TeacherFileDtos.TeacherFileDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "backend.Controllers.TeacherFilesController",
+    "Method": "GetById",
+    "RelativePath": "api/TeacherFiles/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "backend.DTOs.TeacherFileDtos.TeacherFileDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "backend.Controllers.TeacherFilesController",
+    "Method": "Delete",
+    "RelativePath": "api/TeacherFiles/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "backend.Controllers.TeachersController",
+    "Method": "GetAllTeachers",
+    "RelativePath": "api/Teachers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[backend.DTOs.TeacherDtos.TeacherResponseDto, backend, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "backend.Controllers.TeachersController",
+    "Method": "CreateTeacher",
+    "RelativePath": "api/Teachers",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createDto",
+        "Type": "backend.DTOs.TeacherDtos.CreateTeacherDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "backend.DTOs.TeacherDtos.TeacherResponseDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "backend.Controllers.TeachersController",
+    "Method": "GetTeacherById",
+    "RelativePath": "api/Teachers/{teacherId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "teacherId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "backend.DTOs.TeacherDtos.TeacherResponseDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "backend.Controllers.TeachersController",
+    "Method": "UpdateTeacher",
+    "RelativePath": "api/Teachers/{teacherId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "teacherId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateDto",
+        "Type": "backend.DTOs.TeacherDtos.UpdateTeacherDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "backend.DTOs.TeacherDtos.TeacherResponseDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "backend.Controllers.TeachersController",
+    "Method": "DeleteTeacher",
+    "RelativePath": "api/Teachers/{teacherId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "teacherId",
+        "Type": "System.String",
         "IsRequired": true
       }
     ],

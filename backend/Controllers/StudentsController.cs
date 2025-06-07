@@ -1,5 +1,5 @@
-﻿using backend.DTOs;
-using backend.Services;
+﻿using backend.DTOs.StudentDtos;
+using backend.Services.StudentServices;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 

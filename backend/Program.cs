@@ -4,9 +4,19 @@ using Microsoft.IdentityModel.Tokens;
 using System.Text;
 using backend.Data;
 using backend.Helpers;
-using backend.Repositories;
-using backend.Services;
 using backend.Mapping;
+using backend.Repositories.StudentRepo;
+using backend.Repositories.TeacherRepo;
+using backend.Repositories.studentUpload;
+using backend.Repositories.user;
+using backend.Services.UserServices;
+using backend.Services.StudentServices;
+using backend.Services.TeacherServices;
+using backend.Services.StudentUploadServices;
+using backend.Repositories.StudentFileRepo;
+using backend.Repositories.TeacherFileRepo;
+using backend.Services.TeacherFileServices;
+using backend.Services.StudentFileServices;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -51,13 +61,24 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 // DI services
+builder.Services.AddScoped<ITeacherRepository, TeacherRepository>();
 builder.Services.AddScoped<IStudentRepository, StudentRepository>();
 builder.Services.AddScoped<IStudentUploadRepository, StudentUploadRepository>();
 builder.Services.AddScoped<IUserRepository, UserRepository>();
+builder.Services.AddScoped<IStudentFileRepository, StudentFileRepository>();
+builder.Services.AddScoped<ITeacherFileRepository, TeacherFileRepository>();
+
 builder.Services.AddScoped<IAuthService, AuthService>();
+builder.Services.AddScoped<ITeacherService, TeacherService>();
 builder.Services.AddScoped<IStudentService, StudentService>();
 builder.Services.AddScoped<IStudentUploadService, StudentUploadService>();
+builder.Services.AddScoped<IStudentFileService, StudentFileService>();
+builder.Services.AddScoped<ITeacherFileService, TeacherFileService>();
+
 builder.Services.AddSingleton<JwtTokenGenerator>();
+
+// === File Upload ===
+builder.Services.AddHttpContextAccessor();  // Needed for some file operations
 
 var app = builder.Build();
 

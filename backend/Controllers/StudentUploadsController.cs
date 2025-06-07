@@ -1,5 +1,5 @@
-﻿using backend.DTOs;
-using backend.Services;
+﻿using backend.DTOs.StudentUploadDtos;
+using backend.Services.StudentUploadServices;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 

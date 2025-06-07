@@ -8,6 +8,8 @@ import { SubjectsComponent } from './components/subjects/subjects.component';
 import { GradingComponent } from './components/grading/grading.component';
 import { FilesComponent } from './components/files/files.component';
 import { NotificationsComponent } from './components/notifications/notification.component';
+import { TeacherComponent } from './components/teacher/teacher.component';
+import { StudentFileComponent } from './components/student-file/student-file.component';
 
 export const routes: Routes = [
   { path: 'login', component: LoginComponent },
@@ -18,9 +20,11 @@ export const routes: Routes = [
     children: [
       { path: 'subjects', component: SubjectsComponent },
       { path: 'grading', component: GradingComponent },
-      { path: 'files', component: FilesComponent },
+      { path: 'files', component: StudentFileComponent },
       { path: 'notifications', component: NotificationsComponent },
       { path: 'student-details', component: StudentComponent },
+      { path: 'teacher-details', component: TeacherComponent },
+
     ]},
   { path: '', redirectTo: '/dashboard', pathMatch: 'full' },
   { path: '**', redirectTo: '/dashboard' }
