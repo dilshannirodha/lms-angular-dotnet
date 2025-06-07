@@ -235,3 +235,4 @@ D:\github projects\lms-angular-dotnet\backend\obj\Debug\net8.0\backend.genruntim
 D:\github projects\lms-angular-dotnet\backend\obj\Debug\net8.0\ref\backend.dll
 D:\github projects\lms-angular-dotnet\backend\bin\Debug\net8.0\AutoMapper.dll
 D:\github projects\lms-angular-dotnet\backend\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\github projects\lms-angular-dotnet\backend\obj\Debug\net8.0\backend.sourcelink.json

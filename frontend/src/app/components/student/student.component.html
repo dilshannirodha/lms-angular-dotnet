@@ -5,6 +5,14 @@
   <form (submit)="addStudent(); $event.preventDefault()" class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
     <input
       type="text"
+      [(ngModel)]="newStudent.studentId"
+      name="studentId"
+      placeholder="Student Id"
+      class="p-2 border rounded"
+      required
+    />
+    <input
+      type="text"
       [(ngModel)]="newStudent.name"
       name="name"
       placeholder="Name"
@@ -48,6 +56,7 @@
     <table class="w-full table-auto border-collapse rounded overflow-hidden shadow">
       <thead class="bg-gray-200 text-gray-700">
         <tr>
+          <th class="text-left px-4 py-2">Student ID</th>
           <th class="text-left px-4 py-2">Name</th>
           <th class="text-left px-4 py-2">Address</th>
           <th class="text-left px-4 py-2">Email</th>
@@ -58,6 +67,7 @@
       <tbody>
         <tr *ngFor="let student of students" class="border-b">
           <ng-container *ngIf="!isEditing(student.studentId); else editRow">
+            <td class="px-4 py-2">{{ student.studentId }}</td>
             <td class="px-4 py-2">{{ student.name }}</td>
             <td class="px-4 py-2">{{ student.address }}</td>
             <td class="px-4 py-2">{{ student.email }}</td>

@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { RouterModule } from '@angular/router';
+import {Router, RouterModule } from '@angular/router';
 import { AuthService } from '../auth/auth.service';
 import { AsyncPipe } from '@angular/common';
 
@@ -13,14 +13,18 @@ import { AsyncPipe } from '@angular/common';
 export class NavbarComponent {
   isMenuOpen = false;
 
-  constructor(private authService: AuthService) {}
+  constructor(
+    private authService: AuthService,
+    private router: Router
+  ) {}
 
   get user$() {
     return this.authService.user$;
   }
 
   logout() {
-    this.authService.logout();
-    this.isMenuOpen = false;
-  }
+  this.authService.logout();        // Clear tokens or session
+  this.isMenuOpen = false;
+  this.router.navigate(['/login']); // Redirect to login page
+}
 }

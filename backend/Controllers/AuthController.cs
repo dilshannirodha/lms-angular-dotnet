@@ -29,7 +29,7 @@ namespace backend.Controllers
         public async Task<IActionResult> Register([FromBody] DTOs.RegisterRequest request)
         {
             if (string.IsNullOrWhiteSpace(request.Role) ||
-                !new[] { "Student", "Teacher" }.Contains(request.Role))
+                !new[] { "Student", "Teacher","Admin" }.Contains(request.Role))
             {
                 return BadRequest(new { message = "Role must be 'Student' or 'Teacher'." });
             }

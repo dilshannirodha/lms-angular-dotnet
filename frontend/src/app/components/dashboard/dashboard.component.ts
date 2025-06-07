@@ -3,11 +3,12 @@ import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
 import { AuthService } from '../auth/auth.service';
 import { StudentLayoutComponent } from '../student-layout/student-layout.component';
+import { AdminLayoutComponent } from '../admin-layout/admin-layout.component';
 
 @Component({
   selector: 'app-dashboard',
   standalone: true,
-  imports: [CommonModule, RouterModule, StudentLayoutComponent],
+  imports: [CommonModule, RouterModule, StudentLayoutComponent,AdminLayoutComponent],
   templateUrl: './dashboard.component.html',
 })
 export class DashboardComponent {
