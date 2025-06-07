@@ -1,0 +1,19 @@
+<div class="p-6">
+  <h2 class="text-2xl font-bold mb-6">Select a Subject</h2>
+
+  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+    <div
+      *ngFor="let subject of subjects"
+      (click)="selectSubject(subject)"
+      class="cursor-pointer rounded-xl p-6 shadow-md bg-white border hover:shadow-lg hover:border-blue-500 transition-all duration-200"
+      [class.border-blue-600]="selectedSubject === subject"
+      [class.bg-blue-50]="selectedSubject === subject"
+    >
+      <h3 class="text-lg font-semibold text-gray-800">{{ subject }}</h3>
+    </div>
+  </div>
+
+  <div *ngIf="selectedSubject" class="mt-6 text-green-700 font-medium">
+    Selected Subject: {{ selectedSubject }}
+  </div>
+</div>
