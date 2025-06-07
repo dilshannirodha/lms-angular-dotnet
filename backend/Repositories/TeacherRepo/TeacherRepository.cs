@@ -45,7 +45,7 @@ namespace backend.Repositories.TeacherRepo
         {
             var teacher = await _context.Teachers.FindAsync(teacherId);
             if (teacher == null) return null;
-
+            if (!string.IsNullOrEmpty(updateDto.Name)) teacher.Username = updateDto.Username;
             if (!string.IsNullOrEmpty(updateDto.Name)) teacher.Name = updateDto.Name;
             if (!string.IsNullOrEmpty(updateDto.Subject)) teacher.Subject = updateDto.Subject;
             if (!string.IsNullOrEmpty(updateDto.Email)) teacher.Email = updateDto.Email;

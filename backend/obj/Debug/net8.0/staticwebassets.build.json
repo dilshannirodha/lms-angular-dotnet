@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ZqeSBxYQMTierhpq0GvIfvGoIIAHckY1BAgsJJfXNwM=",
+  "Hash": "kr9gMna0fJCH7YXosyMBq+n+ACtmBqQCO5ZQQtMj9gY=",
   "Source": "backend",
   "BasePath": "_content/backend",
   "Mode": "Default",
@@ -16,6 +16,27 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "D:\\github projects\\lms-angular-dotnet\\backend\\wwwroot\\studentfiles\\628f4d87-4953-4faf-9aa3-ea1e601196a1.zip",
+      "SourceId": "backend",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\github projects\\lms-angular-dotnet\\backend\\wwwroot\\",
+      "BasePath": "_content/backend",
+      "RelativePath": "studentfiles/628f4d87-4953-4faf-9aa3-ea1e601196a1#[.{fingerprint}]?.zip",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1y2yqtom99",
+      "Integrity": "l84owNuLzbjyqQIvDeQ5miOUcXkvemCgx83APrRHwi4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\studentfiles\\628f4d87-4953-4faf-9aa3-ea1e601196a1.zip"
+    },
     {
       "Identity": "D:\\github projects\\lms-angular-dotnet\\backend\\wwwroot\\studentfiles\\e05689ae-6462-49ea-9ebb-8648b5b23e18.zip",
       "SourceId": "backend",
@@ -39,6 +60,88 @@
     }
   ],
   "Endpoints": [
+    {
+      "Route": "studentfiles/628f4d87-4953-4faf-9aa3-ea1e601196a1.1y2yqtom99.zip",
+      "AssetFile": "D:\\github projects\\lms-angular-dotnet\\backend\\wwwroot\\studentfiles\\628f4d87-4953-4faf-9aa3-ea1e601196a1.zip",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1059747"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-zip-compressed"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"l84owNuLzbjyqQIvDeQ5miOUcXkvemCgx83APrRHwi4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Jun 2025 16:22:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1y2yqtom99"
+        },
+        {
+          "Name": "label",
+          "Value": "studentfiles/628f4d87-4953-4faf-9aa3-ea1e601196a1.zip"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-l84owNuLzbjyqQIvDeQ5miOUcXkvemCgx83APrRHwi4="
+        }
+      ]
+    },
+    {
+      "Route": "studentfiles/628f4d87-4953-4faf-9aa3-ea1e601196a1.zip",
+      "AssetFile": "D:\\github projects\\lms-angular-dotnet\\backend\\wwwroot\\studentfiles\\628f4d87-4953-4faf-9aa3-ea1e601196a1.zip",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1059747"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-zip-compressed"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"l84owNuLzbjyqQIvDeQ5miOUcXkvemCgx83APrRHwi4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Jun 2025 16:22:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-l84owNuLzbjyqQIvDeQ5miOUcXkvemCgx83APrRHwi4="
+        }
+      ]
+    },
     {
       "Route": "studentfiles/e05689ae-6462-49ea-9ebb-8648b5b23e18.1y2yqtom99.zip",
       "AssetFile": "D:\\github projects\\lms-angular-dotnet\\backend\\wwwroot\\studentfiles\\e05689ae-6462-49ea-9ebb-8648b5b23e18.zip",

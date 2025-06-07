@@ -7,12 +7,10 @@ using backend.Helpers;
 using backend.Mapping;
 using backend.Repositories.StudentRepo;
 using backend.Repositories.TeacherRepo;
-using backend.Repositories.studentUpload;
 using backend.Repositories.user;
 using backend.Services.UserServices;
 using backend.Services.StudentServices;
 using backend.Services.TeacherServices;
-using backend.Services.StudentUploadServices;
 using backend.Repositories.StudentFileRepo;
 using backend.Repositories.TeacherFileRepo;
 using backend.Services.TeacherFileServices;
@@ -63,7 +61,6 @@ builder.Services.AddSwaggerGen();
 // DI services
 builder.Services.AddScoped<ITeacherRepository, TeacherRepository>();
 builder.Services.AddScoped<IStudentRepository, StudentRepository>();
-builder.Services.AddScoped<IStudentUploadRepository, StudentUploadRepository>();
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<IStudentFileRepository, StudentFileRepository>();
 builder.Services.AddScoped<ITeacherFileRepository, TeacherFileRepository>();
@@ -71,7 +68,6 @@ builder.Services.AddScoped<ITeacherFileRepository, TeacherFileRepository>();
 builder.Services.AddScoped<IAuthService, AuthService>();
 builder.Services.AddScoped<ITeacherService, TeacherService>();
 builder.Services.AddScoped<IStudentService, StudentService>();
-builder.Services.AddScoped<IStudentUploadService, StudentUploadService>();
 builder.Services.AddScoped<IStudentFileService, StudentFileService>();
 builder.Services.AddScoped<ITeacherFileService, TeacherFileService>();
 

@@ -17,6 +17,7 @@ export class TeacherComponent implements OnInit {
 
   newTeacher: CreateTeacherDto = {
     teacherId: '',
+    username: '',
     name: '',
     subject: '',
     email: '',
@@ -39,7 +40,7 @@ export class TeacherComponent implements OnInit {
     if (!this.newTeacher.name || !this.newTeacher.subject) return;
 
     this.teacherService.createTeacher(this.newTeacher).subscribe(() => {
-      this.newTeacher = { teacherId: '', name: '', subject: '', email: '', phone: '' };
+      this.newTeacher = { teacherId: '', username: '', name: '', subject: '', email: '', phone: '' };
       this.loadTeachers();
     });
   }

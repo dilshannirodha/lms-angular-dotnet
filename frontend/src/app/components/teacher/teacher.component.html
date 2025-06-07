@@ -13,6 +13,14 @@
     />
     <input
       type="text"
+      [(ngModel)]="newTeacher.username"
+      name="username"
+      placeholder="Username"
+      class="p-2 border rounded"
+      required
+    />
+    <input
+      type="text"
       [(ngModel)]="newTeacher.name"
       name="name"
       placeholder="Name"
@@ -57,6 +65,7 @@
       <thead class="bg-gray-200 text-gray-700">
         <tr>
           <th class="text-left px-4 py-2">Teacher ID</th>
+          <th class="text-left px-4 py-2">Username</th>
           <th class="text-left px-4 py-2">Name</th>
           <th class="text-left px-4 py-2">Subject</th>
           <th class="text-left px-4 py-2">Email</th>
@@ -68,6 +77,7 @@
         <tr *ngFor="let teacher of teachers" class="border-b">
           <ng-container *ngIf="!isEditing(teacher.teacherId); else editRow">
             <td class="px-4 py-2">{{ teacher.teacherId }}</td>
+            <td class="px-4 py-2">{{ teacher.username }}</td>
             <td class="px-4 py-2">{{ teacher.name }}</td>
             <td class="px-4 py-2">{{ teacher.subject }}</td>
             <td class="px-4 py-2">{{ teacher.email }}</td>
@@ -89,6 +99,14 @@
           </ng-container>
 
           <ng-template #editRow>
+            <td class="px-4 py-2">
+              <input
+                type="text"
+                [(ngModel)]="editingTeacher!.username"
+                name="editUsername"
+                class="p-1 border rounded w-full"
+              />
+            </td>
             <td class="px-4 py-2">
               <input
                 type="text"

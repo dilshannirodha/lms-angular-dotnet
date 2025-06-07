@@ -13,7 +13,6 @@ import { StudentFileComponent } from './components/student-file/student-file.com
 
 export const routes: Routes = [
   { path: 'login', component: LoginComponent },
-  { path: 'register', component: RegisterComponent },
   { path: 'dashboard', 
     component: DashboardComponent, 
     canActivate: [AuthGuard] ,
@@ -24,7 +23,7 @@ export const routes: Routes = [
       { path: 'notifications', component: NotificationsComponent },
       { path: 'student-details', component: StudentComponent },
       { path: 'teacher-details', component: TeacherComponent },
-
+      { path: 'register', component: RegisterComponent },
     ]},
   { path: '', redirectTo: '/dashboard', pathMatch: 'full' },
   { path: '**', redirectTo: '/dashboard' }

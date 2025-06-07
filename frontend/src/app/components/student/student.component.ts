@@ -17,6 +17,7 @@ export class StudentComponent implements OnInit {
 
   newStudent: CreateStudentDto = {
     studentId: '',
+    username: '',
     name: '',
     address: '',
     email: '',
@@ -39,7 +40,7 @@ export class StudentComponent implements OnInit {
     if (!this.newStudent.name || !this.newStudent.address) return;
 
     this.studentService.createStudent(this.newStudent).subscribe(() => {
-      this.newStudent = { studentId: '', name: '', address: '', email: '', phone: '' };
+      this.newStudent = { studentId: '', username: '', name: '', address: '', email: '', phone: '' };
       this.loadStudents();
     });
   }

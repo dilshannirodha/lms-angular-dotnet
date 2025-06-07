@@ -19,6 +19,7 @@ export class StudentFileComponent implements OnInit {
   // Simulated logged-in student data (replace this with your auth service)
   student: Student = {
     studentId: '',
+    username: '',
     name: '',
     address: '',
     email: '',

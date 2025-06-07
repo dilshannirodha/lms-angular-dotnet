@@ -1,6 +1,5 @@
 ﻿using AutoMapper;
 using backend.DTOs.StudentDtos;
-using backend.DTOs.StudentUploadDtos;
 using backend.DTOs.TeacherDtos;
 using backend.Models;
 
@@ -20,10 +19,7 @@ namespace backend.Mapping
                 .ForAllMembers(opts => opts.Condition((src, dest, srcMember) => srcMember != null)); 
             CreateMap<Student, StudentResponseDto>();
 
-            CreateMap<CreateStudentUploadDto, StudentUpload>();
-            CreateMap<UpdateStudentUploadDto, StudentUpload>()
-                .ForAllMembers(opts => opts.Condition((src, dest, srcMember) => srcMember != null));
-            CreateMap<StudentUpload, StudentUploadResponseDto>();
+          
         }
     }
 }

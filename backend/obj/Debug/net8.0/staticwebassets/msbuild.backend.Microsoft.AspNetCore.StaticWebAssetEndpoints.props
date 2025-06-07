@@ -1,5 +1,17 @@
 ﻿<Project>
   <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/backend/studentfiles/628f4d87-4953-4faf-9aa3-ea1e601196a1.1y2yqtom99.zip">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\studentfiles\628f4d87-4953-4faf-9aa3-ea1e601196a1.zip'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"1y2yqtom99"},{"Name":"integrity","Value":"sha256-l84owNuLzbjyqQIvDeQ5miOUcXkvemCgx83APrRHwi4="},{"Name":"label","Value":"_content/backend/studentfiles/628f4d87-4953-4faf-9aa3-ea1e601196a1.zip"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1059747"},{"Name":"Content-Type","Value":"application/x-zip-compressed"},{"Name":"ETag","Value":"\u0022l84owNuLzbjyqQIvDeQ5miOUcXkvemCgx83APrRHwi4=\u0022"},{"Name":"Last-Modified","Value":"Sat, 07 Jun 2025 16:22:20 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/backend/studentfiles/628f4d87-4953-4faf-9aa3-ea1e601196a1.zip">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\studentfiles\628f4d87-4953-4faf-9aa3-ea1e601196a1.zip'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-l84owNuLzbjyqQIvDeQ5miOUcXkvemCgx83APrRHwi4="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1059747"},{"Name":"Content-Type","Value":"application/x-zip-compressed"},{"Name":"ETag","Value":"\u0022l84owNuLzbjyqQIvDeQ5miOUcXkvemCgx83APrRHwi4=\u0022"},{"Name":"Last-Modified","Value":"Sat, 07 Jun 2025 16:22:20 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/backend/studentfiles/e05689ae-6462-49ea-9ebb-8648b5b23e18.1y2yqtom99.zip">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\studentfiles\e05689ae-6462-49ea-9ebb-8648b5b23e18.zip'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>

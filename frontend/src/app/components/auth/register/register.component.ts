@@ -28,7 +28,6 @@ export class RegisterComponent {
       console.log('Registration response:', res);
       this.successMessage = 'Registration successful! Please login.';
       this.errorMessage = '';
-      setTimeout(() => this.router.navigate(['/login']), 2000);
     },
     error: (err) => {
       console.error('Registration error:', err);

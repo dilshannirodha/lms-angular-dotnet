@@ -45,7 +45,7 @@ namespace backend.Repositories.StudentRepo
         {
             var student = await _context.Students.FindAsync(studentId);
             if (student == null) return null;
-
+            if (!string.IsNullOrEmpty(updateDto.Name)) student.Username = updateDto.Username;
             if (!string.IsNullOrEmpty(updateDto.Name)) student.Name = updateDto.Name;
             if (!string.IsNullOrEmpty(updateDto.Address)) student.Address = updateDto.Address;
             if (!string.IsNullOrEmpty(updateDto.Email)) student.Email = updateDto.Email;

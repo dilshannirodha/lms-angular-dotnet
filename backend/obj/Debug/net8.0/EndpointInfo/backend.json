@@ -1025,6 +1025,10 @@
             "type": "string",
             "nullable": true
           },
+          "username": {
+            "type": "string",
+            "nullable": true
+          },
           "name": {
             "type": "string",
             "nullable": true
@@ -1077,6 +1081,10 @@
         "type": "object",
         "properties": {
           "teacherId": {
+            "type": "string",
+            "nullable": true
+          },
+          "username": {
             "type": "string",
             "nullable": true
           },
@@ -1161,6 +1169,10 @@
         "type": "object",
         "properties": {
           "studentId": {
+            "type": "string",
+            "nullable": true
+          },
+          "username": {
             "type": "string",
             "nullable": true
           },
@@ -1253,6 +1265,10 @@
             "type": "string",
             "nullable": true
           },
+          "username": {
+            "type": "string",
+            "nullable": true
+          },
           "name": {
             "type": "string",
             "nullable": true
@@ -1275,6 +1291,10 @@
       "UpdateStudentDto": {
         "type": "object",
         "properties": {
+          "username": {
+            "type": "string",
+            "nullable": true
+          },
           "name": {
             "type": "string",
             "nullable": true
@@ -1323,6 +1343,10 @@
       "UpdateTeacherDto": {
         "type": "object",
         "properties": {
+          "username": {
+            "type": "string",
+            "nullable": true
+          },
           "name": {
             "type": "string",
             "nullable": true

@@ -14,7 +14,6 @@ namespace backend.Data
         public DbSet<Student> Students { get; set; }
 
         public DbSet<Teacher> Teachers { get; set; }
-        public DbSet<StudentUpload> StudentUploads { get; set; }
         public DbSet<StudentFile> StudentFiles { get; set; }
         public DbSet<TeacherFile> TeacherFiles { get; set; }
 
@@ -26,20 +25,7 @@ namespace backend.Data
             modelBuilder.Entity<Teacher>()
                 .HasKey(t => t.TeacherId);
 
-            modelBuilder.Entity<StudentUpload>()
-                .HasKey(su => su.Id);
-
-            modelBuilder.Entity<StudentUpload>()
-                .HasOne(su => su.Student)
-                .WithMany(s => s.Uploads)
-                .HasForeignKey(su => su.StudentId)
-                .OnDelete(DeleteBehavior.Cascade);
-
-            modelBuilder.Entity<StudentUpload>()
-                .Property(su => su.Uploads)
-                .HasConversion(
-                    v => JsonSerializer.Serialize(v, (JsonSerializerOptions)null),
-                    v => JsonSerializer.Deserialize<List<string>>(v, (JsonSerializerOptions)null));
+            
         }
     }
 }
