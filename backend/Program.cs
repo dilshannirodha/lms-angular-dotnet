@@ -11,10 +11,10 @@ using backend.Repositories.user;
 using backend.Services.UserServices;
 using backend.Services.StudentServices;
 using backend.Services.TeacherServices;
-using backend.Repositories.StudentFileRepo;
-using backend.Repositories.TeacherFileRepo;
-using backend.Services.TeacherFileServices;
-using backend.Services.StudentFileServices;
+using backend.Services.TeacherEnrollmentServices;
+using backend.Repositories.TeacherEnrollmentRepo;
+using backend.Repositories.StudentEnrollmentRepo;
+using backend.Services.StudentEnrollmentServices;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -28,7 +28,7 @@ builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowAll", policy =>
     {
-        policy.AllowAnyOrigin()      // Or use .WithOrigins("http://localhost:3000") for production
+        policy.AllowAnyOrigin()      
               .AllowAnyMethod()
               .AllowAnyHeader();
     });
@@ -60,27 +60,26 @@ builder.Services.AddSwaggerGen();
 
 // DI services
 builder.Services.AddScoped<ITeacherRepository, TeacherRepository>();
-builder.Services.AddScoped<IStudentRepository, StudentRepository>();
+builder.Services.AddScoped<IStudentRepository, StudentRepository>(); 
 builder.Services.AddScoped<IUserRepository, UserRepository>();
-builder.Services.AddScoped<IStudentFileRepository, StudentFileRepository>();
-builder.Services.AddScoped<ITeacherFileRepository, TeacherFileRepository>();
+builder.Services.AddScoped<ITeacherEnrollmentRepository, TeacherEnrollmentRepository>();
+builder.Services.AddScoped<IEnrollmentRepository, EnrollmentRepository>();
 
 builder.Services.AddScoped<IAuthService, AuthService>();
 builder.Services.AddScoped<ITeacherService, TeacherService>();
 builder.Services.AddScoped<IStudentService, StudentService>();
-builder.Services.AddScoped<IStudentFileService, StudentFileService>();
-builder.Services.AddScoped<ITeacherFileService, TeacherFileService>();
+builder.Services.AddScoped<IEnrollmentService, EnrollmentService>();
+builder.Services.AddScoped<ITeacherEnrollmentService, TeacherEnrollmentService>();
 
 builder.Services.AddSingleton<JwtTokenGenerator>();
 
-// === File Upload ===
-builder.Services.AddHttpContextAccessor();  // Needed for some file operations
 
 var app = builder.Build();
 
 // Enable Swagger only in Development environment
 if (app.Environment.IsDevelopment())
 {
+    app.UseDeveloperExceptionPage();
     app.UseSwagger();
     app.UseSwaggerUI();
 }

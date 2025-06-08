@@ -10,6 +10,8 @@ import { FilesComponent } from './components/files/files.component';
 import { NotificationsComponent } from './components/notifications/notification.component';
 import { TeacherComponent } from './components/teacher/teacher.component';
 import { StudentFileComponent } from './components/student-file/student-file.component';
+import { EnrollmentComponent } from './components/enrollment/enrollment.component';
+import { TeacherEnrollmentComponent } from './components/teacher-enrollment/teacher-enrollment.component';
 
 export const routes: Routes = [
   { path: 'login', component: LoginComponent },
@@ -24,6 +26,10 @@ export const routes: Routes = [
       { path: 'student-details', component: StudentComponent },
       { path: 'teacher-details', component: TeacherComponent },
       { path: 'register', component: RegisterComponent },
+      { path: 'enroll-student', component: EnrollmentComponent },
+      { path: 'enroll-teacher', component: TeacherEnrollmentComponent },
+
+
     ]},
   { path: '', redirectTo: '/dashboard', pathMatch: 'full' },
   { path: '**', redirectTo: '/dashboard' }

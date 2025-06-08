@@ -67,10 +67,10 @@
         }
       }
     },
-    "/api/StudentFiles": {
+    "/api/enrollments": {
       "get": {
         "tags": [
-          "StudentFiles"
+          "Enrollment"
         ],
         "responses": {
           "200": {
@@ -80,7 +80,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/StudentFileDto"
+                    "$ref": "#/components/schemas/EnrollmentDto"
                   }
                 }
               },
@@ -88,7 +88,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/StudentFileDto"
+                    "$ref": "#/components/schemas/EnrollmentDto"
                   }
                 }
               },
@@ -96,7 +96,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/StudentFileDto"
+                    "$ref": "#/components/schemas/EnrollmentDto"
                   }
                 }
               }
@@ -106,30 +106,23 @@
       },
       "post": {
         "tags": [
-          "StudentFiles"
+          "Enrollment"
         ],
         "requestBody": {
           "content": {
-            "multipart/form-data": {
+            "application/json": {
               "schema": {
-                "type": "object",
-                "properties": {
-                  "StudentId": {
-                    "type": "string"
-                  },
-                  "File": {
-                    "type": "string",
-                    "format": "binary"
-                  }
-                }
-              },
-              "encoding": {
-                "StudentId": {
-                  "style": "form"
-                },
-                "File": {
-                  "style": "form"
-                }
+                "$ref": "#/components/schemas/CreateEnrollmentDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateEnrollmentDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateEnrollmentDto"
               }
             }
           }
@@ -140,17 +133,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/StudentFileDto"
+                  "$ref": "#/components/schemas/EnrollmentDto"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/StudentFileDto"
+                  "$ref": "#/components/schemas/EnrollmentDto"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/StudentFileDto"
+                  "$ref": "#/components/schemas/EnrollmentDto"
                 }
               }
             }
@@ -158,10 +151,10 @@
         }
       }
     },
-    "/api/StudentFiles/{id}": {
+    "/api/enrollments/{id}": {
       "get": {
         "tags": [
-          "StudentFiles"
+          "Enrollment"
         ],
         "parameters": [
           {
@@ -180,26 +173,26 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/StudentFileDto"
+                  "$ref": "#/components/schemas/EnrollmentDto"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/StudentFileDto"
+                  "$ref": "#/components/schemas/EnrollmentDto"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/StudentFileDto"
+                  "$ref": "#/components/schemas/EnrollmentDto"
                 }
               }
             }
           }
         }
       },
-      "delete": {
+      "put": {
         "tags": [
-          "StudentFiles"
+          "Enrollment"
         ],
         "parameters": [
           {
@@ -209,6 +202,85 @@
             "schema": {
               "type": "integer",
               "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateEnrollmentDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateEnrollmentDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateEnrollmentDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/EnrollmentDto"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/EnrollmentDto"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/EnrollmentDto"
+                }
+              }
+            }
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Enrollment"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/enrollments/student/{studentId}/course-ids": {
+      "get": {
+        "tags": [
+          "Enrollment"
+        ],
+        "parameters": [
+          {
+            "name": "studentId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
             }
           }
         ],
@@ -418,20 +490,10 @@
         }
       }
     },
-    "/api/students/{studentId}/StudentUploads": {
+    "/api/teacher-enrollments": {
       "get": {
         "tags": [
-          "StudentUploads"
-        ],
-        "parameters": [
-          {
-            "name": "studentId",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "string"
-            }
-          }
+          "TeacherEnrollment"
         ],
         "responses": {
           "200": {
@@ -441,7 +503,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/StudentUploadResponseDto"
+                    "$ref": "#/components/schemas/TeacherEnrollmentDto"
                   }
                 }
               },
@@ -449,7 +511,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/StudentUploadResponseDto"
+                    "$ref": "#/components/schemas/TeacherEnrollmentDto"
                   }
                 }
               },
@@ -457,7 +519,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/StudentUploadResponseDto"
+                    "$ref": "#/components/schemas/TeacherEnrollmentDto"
                   }
                 }
               }
@@ -467,33 +529,23 @@
       },
       "post": {
         "tags": [
-          "StudentUploads"
-        ],
-        "parameters": [
-          {
-            "name": "studentId",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "string"
-            }
-          }
+          "TeacherEnrollment"
         ],
         "requestBody": {
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/CreateStudentUploadDto"
+                "$ref": "#/components/schemas/CreateTeacherEnrollmentDto"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/CreateStudentUploadDto"
+                "$ref": "#/components/schemas/CreateTeacherEnrollmentDto"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/CreateStudentUploadDto"
+                "$ref": "#/components/schemas/CreateTeacherEnrollmentDto"
               }
             }
           }
@@ -504,17 +556,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/StudentUploadResponseDto"
+                  "$ref": "#/components/schemas/TeacherEnrollmentDto"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/StudentUploadResponseDto"
+                  "$ref": "#/components/schemas/TeacherEnrollmentDto"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/StudentUploadResponseDto"
+                  "$ref": "#/components/schemas/TeacherEnrollmentDto"
                 }
               }
             }
@@ -522,10 +574,10 @@
         }
       }
     },
-    "/api/students/{studentId}/StudentUploads/{id}": {
+    "/api/teacher-enrollments/{id}": {
       "get": {
         "tags": [
-          "StudentUploads"
+          "TeacherEnrollment"
         ],
         "parameters": [
           {
@@ -536,14 +588,6 @@
               "type": "integer",
               "format": "int32"
             }
-          },
-          {
-            "name": "studentId",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "string"
-            }
           }
         ],
         "responses": {
@@ -552,17 +596,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/StudentUploadResponseDto"
+                  "$ref": "#/components/schemas/TeacherEnrollmentDto"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/StudentUploadResponseDto"
+                  "$ref": "#/components/schemas/TeacherEnrollmentDto"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/StudentUploadResponseDto"
+                  "$ref": "#/components/schemas/TeacherEnrollmentDto"
                 }
               }
             }
@@ -571,7 +615,7 @@
       },
       "put": {
         "tags": [
-          "StudentUploads"
+          "TeacherEnrollment"
         ],
         "parameters": [
           {
@@ -582,31 +626,23 @@
               "type": "integer",
               "format": "int32"
             }
-          },
-          {
-            "name": "studentId",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "string"
-            }
           }
         ],
         "requestBody": {
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/UpdateStudentUploadDto"
+                "$ref": "#/components/schemas/CreateTeacherEnrollmentDto"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/UpdateStudentUploadDto"
+                "$ref": "#/components/schemas/CreateTeacherEnrollmentDto"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/UpdateStudentUploadDto"
+                "$ref": "#/components/schemas/CreateTeacherEnrollmentDto"
               }
             }
           }
@@ -617,17 +653,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/StudentUploadResponseDto"
+                  "$ref": "#/components/schemas/TeacherEnrollmentDto"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/StudentUploadResponseDto"
+                  "$ref": "#/components/schemas/TeacherEnrollmentDto"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/StudentUploadResponseDto"
+                  "$ref": "#/components/schemas/TeacherEnrollmentDto"
                 }
               }
             }
@@ -636,7 +672,7 @@
       },
       "delete": {
         "tags": [
-          "StudentUploads"
+          "TeacherEnrollment"
         ],
         "parameters": [
           {
@@ -646,14 +682,6 @@
             "schema": {
               "type": "integer",
               "format": "int32"
-            }
-          },
-          {
-            "name": "studentId",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "string"
             }
           }
         ],
@@ -664,148 +692,25 @@
         }
       }
     },
-    "/api/TeacherFiles": {
+    "/api/teacher-enrollments/student/{studentId}/course-ids": {
       "get": {
         "tags": [
-          "TeacherFiles"
-        ],
-        "responses": {
-          "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/TeacherFileDto"
-                  }
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/TeacherFileDto"
-                  }
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/TeacherFileDto"
-                  }
-                }
-              }
-            }
-          }
-        }
-      },
-      "post": {
-        "tags": [
-          "TeacherFiles"
-        ],
-        "requestBody": {
-          "content": {
-            "multipart/form-data": {
-              "schema": {
-                "type": "object",
-                "properties": {
-                  "TeacherId": {
-                    "type": "string"
-                  },
-                  "File": {
-                    "type": "string",
-                    "format": "binary"
-                  }
-                }
-              },
-              "encoding": {
-                "TeacherId": {
-                  "style": "form"
-                },
-                "File": {
-                  "style": "form"
-                }
-              }
-            }
-          }
-        },
-        "responses": {
-          "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "$ref": "#/components/schemas/TeacherFileDto"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/TeacherFileDto"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/TeacherFileDto"
-                }
-              }
-            }
-          }
-        }
-      }
-    },
-    "/api/TeacherFiles/{id}": {
-      "get": {
-        "tags": [
-          "TeacherFiles"
+          "TeacherEnrollment"
         ],
         "parameters": [
           {
-            "name": "id",
-            "in": "path",
-            "required": true,
+            "name": "teacherId",
+            "in": "query",
             "schema": {
-              "type": "integer",
-              "format": "int32"
+              "type": "string"
             }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "$ref": "#/components/schemas/TeacherFileDto"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/TeacherFileDto"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/TeacherFileDto"
-                }
-              }
-            }
-          }
-        }
-      },
-      "delete": {
-        "tags": [
-          "TeacherFiles"
-        ],
-        "parameters": [
+          },
           {
-            "name": "id",
+            "name": "studentId",
             "in": "path",
             "required": true,
             "schema": {
-              "type": "integer",
-              "format": "int32"
+              "type": "string"
             }
           }
         ],
@@ -1018,6 +923,20 @@
   },
   "components": {
     "schemas": {
+      "CreateEnrollmentDto": {
+        "type": "object",
+        "properties": {
+          "courseId": {
+            "type": "string",
+            "nullable": true
+          },
+          "studentId": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
       "CreateStudentDto": {
         "type": "object",
         "properties": {
@@ -1042,35 +961,6 @@
             "nullable": true
           },
           "phone": {
-            "type": "string",
-            "nullable": true
-          }
-        },
-        "additionalProperties": false
-      },
-      "CreateStudentUploadDto": {
-        "type": "object",
-        "properties": {
-          "studentId": {
-            "type": "string",
-            "nullable": true
-          },
-          "subject": {
-            "type": "string",
-            "nullable": true
-          },
-          "uploads": {
-            "type": "array",
-            "items": {
-              "type": "string"
-            },
-            "nullable": true
-          },
-          "marks": {
-            "type": "number",
-            "format": "double"
-          },
-          "feedback": {
             "type": "string",
             "nullable": true
           }
@@ -1107,6 +997,42 @@
         },
         "additionalProperties": false
       },
+      "CreateTeacherEnrollmentDto": {
+        "type": "object",
+        "properties": {
+          "courseId": {
+            "type": "string",
+            "nullable": true
+          },
+          "teacherId": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "EnrollmentDto": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "courseId": {
+            "type": "string",
+            "nullable": true
+          },
+          "studentId": {
+            "type": "string",
+            "nullable": true
+          },
+          "enrolledAt": {
+            "type": "string",
+            "format": "date-time"
+          }
+        },
+        "additionalProperties": false
+      },
       "LoginRequest": {
         "type": "object",
         "properties": {
@@ -1135,32 +1061,6 @@
           "role": {
             "type": "string",
             "nullable": true
-          }
-        },
-        "additionalProperties": false
-      },
-      "StudentFileDto": {
-        "type": "object",
-        "properties": {
-          "id": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "studentId": {
-            "type": "string",
-            "nullable": true
-          },
-          "fileName": {
-            "type": "string",
-            "nullable": true
-          },
-          "filePath": {
-            "type": "string",
-            "nullable": true
-          },
-          "uploadedAt": {
-            "type": "string",
-            "format": "date-time"
           }
         },
         "additionalProperties": false
@@ -1195,63 +1095,22 @@
         },
         "additionalProperties": false
       },
-      "StudentUploadResponseDto": {
+      "TeacherEnrollmentDto": {
         "type": "object",
         "properties": {
           "id": {
             "type": "integer",
             "format": "int32"
           },
-          "studentId": {
+          "courseId": {
             "type": "string",
             "nullable": true
-          },
-          "subject": {
-            "type": "string",
-            "nullable": true
-          },
-          "uploads": {
-            "type": "array",
-            "items": {
-              "type": "string"
-            },
-            "nullable": true
-          },
-          "marks": {
-            "type": "number",
-            "format": "double"
-          },
-          "feedback": {
-            "type": "string",
-            "nullable": true
-          },
-          "uploadDate": {
-            "type": "string",
-            "format": "date-time"
-          }
-        },
-        "additionalProperties": false
-      },
-      "TeacherFileDto": {
-        "type": "object",
-        "properties": {
-          "id": {
-            "type": "integer",
-            "format": "int32"
           },
           "teacherId": {
             "type": "string",
             "nullable": true
           },
-          "fileName": {
-            "type": "string",
-            "nullable": true
-          },
-          "filePath": {
-            "type": "string",
-            "nullable": true
-          },
-          "uploadedAt": {
+          "enrolledAt": {
             "type": "string",
             "format": "date-time"
           }
@@ -1308,32 +1167,6 @@
             "nullable": true
           },
           "phone": {
-            "type": "string",
-            "nullable": true
-          }
-        },
-        "additionalProperties": false
-      },
-      "UpdateStudentUploadDto": {
-        "type": "object",
-        "properties": {
-          "subject": {
-            "type": "string",
-            "nullable": true
-          },
-          "uploads": {
-            "type": "array",
-            "items": {
-              "type": "string"
-            },
-            "nullable": true
-          },
-          "marks": {
-            "type": "number",
-            "format": "double",
-            "nullable": true
-          },
-          "feedback": {
             "type": "string",
             "nullable": true
           }

@@ -32,16 +32,16 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "backend.Controllers.StudentFilesController",
+    "ContainingType": "backend.Controllers.EnrollmentController",
     "Method": "GetAll",
-    "RelativePath": "api/StudentFiles",
+    "RelativePath": "api/enrollments",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.List\u00601[[backend.DTOs.StudentFilesDtos.StudentFileDto, backend, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.List\u00601[[backend.DTOs.StudentEnrollmentDtos.EnrollmentDto, backend, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -52,27 +52,22 @@
     ]
   },
   {
-    "ContainingType": "backend.Controllers.StudentFilesController",
-    "Method": "Upload",
-    "RelativePath": "api/StudentFiles",
+    "ContainingType": "backend.Controllers.EnrollmentController",
+    "Method": "Create",
+    "RelativePath": "api/enrollments",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "StudentId",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "File",
-        "Type": "Microsoft.AspNetCore.Http.IFormFile",
-        "IsRequired": false
+        "Name": "dto",
+        "Type": "backend.DTOs.StudentEnrollmentDtos.CreateEnrollmentDto",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "backend.DTOs.StudentFilesDtos.StudentFileDto",
+        "Type": "backend.DTOs.StudentEnrollmentDtos.EnrollmentDto",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -83,9 +78,9 @@
     ]
   },
   {
-    "ContainingType": "backend.Controllers.StudentFilesController",
+    "ContainingType": "backend.Controllers.EnrollmentController",
     "Method": "GetById",
-    "RelativePath": "api/StudentFiles/{id}",
+    "RelativePath": "api/enrollments/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -98,7 +93,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "backend.DTOs.StudentFilesDtos.StudentFileDto",
+        "Type": "backend.DTOs.StudentEnrollmentDtos.EnrollmentDto",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -109,9 +104,40 @@
     ]
   },
   {
-    "ContainingType": "backend.Controllers.StudentFilesController",
+    "ContainingType": "backend.Controllers.EnrollmentController",
+    "Method": "Update",
+    "RelativePath": "api/enrollments/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "backend.DTOs.StudentEnrollmentDtos.CreateEnrollmentDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "backend.DTOs.StudentEnrollmentDtos.EnrollmentDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "backend.Controllers.EnrollmentController",
     "Method": "Delete",
-    "RelativePath": "api/StudentFiles/{id}",
+    "RelativePath": "api/enrollments/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -119,6 +145,22 @@
       {
         "Name": "id",
         "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "backend.Controllers.EnrollmentController",
+    "Method": "GetCourseIdsByStudentId",
+    "RelativePath": "api/enrollments/student/{studentId}/course-ids",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "studentId",
+        "Type": "System.String",
         "IsRequired": true
       }
     ],
@@ -244,22 +286,16 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "backend.Controllers.StudentUploadsController",
-    "Method": "GetAllStudentUploads",
-    "RelativePath": "api/students/{studentId}/StudentUploads",
+    "ContainingType": "backend.Controllers.TeacherEnrollmentController",
+    "Method": "GetAll",
+    "RelativePath": "api/teacher-enrollments",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [
-      {
-        "Name": "studentId",
-        "Type": "System.String",
-        "IsRequired": true
-      }
-    ],
+    "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.List\u00601[[backend.DTOs.StudentUploadDtos.StudentUploadResponseDto, backend, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.List\u00601[[backend.DTOs.TeacherEnrollmentDtos.TeacherEnrollmentDto, backend, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -270,27 +306,22 @@
     ]
   },
   {
-    "ContainingType": "backend.Controllers.StudentUploadsController",
-    "Method": "CreateStudentUpload",
-    "RelativePath": "api/students/{studentId}/StudentUploads",
+    "ContainingType": "backend.Controllers.TeacherEnrollmentController",
+    "Method": "Create",
+    "RelativePath": "api/teacher-enrollments",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "studentId",
-        "Type": "System.String",
-        "IsRequired": true
-      },
-      {
-        "Name": "createDto",
-        "Type": "backend.DTOs.StudentUploadDtos.CreateStudentUploadDto",
+        "Name": "dto",
+        "Type": "backend.DTOs.TeacherEnrollmentDtos.CreateTeacherEnrollmentDto",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "backend.DTOs.StudentUploadDtos.StudentUploadResponseDto",
+        "Type": "backend.DTOs.TeacherEnrollmentDtos.TeacherEnrollmentDto",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -301,9 +332,9 @@
     ]
   },
   {
-    "ContainingType": "backend.Controllers.StudentUploadsController",
-    "Method": "GetStudentUploadById",
-    "RelativePath": "api/students/{studentId}/StudentUploads/{id}",
+    "ContainingType": "backend.Controllers.TeacherEnrollmentController",
+    "Method": "GetById",
+    "RelativePath": "api/teacher-enrollments/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -312,16 +343,11 @@
         "Name": "id",
         "Type": "System.Int32",
         "IsRequired": true
-      },
-      {
-        "Name": "studentId",
-        "Type": "",
-        "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "backend.DTOs.StudentUploadDtos.StudentUploadResponseDto",
+        "Type": "backend.DTOs.TeacherEnrollmentDtos.TeacherEnrollmentDto",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -332,9 +358,9 @@
     ]
   },
   {
-    "ContainingType": "backend.Controllers.StudentUploadsController",
-    "Method": "UpdateStudentUpload",
-    "RelativePath": "api/students/{studentId}/StudentUploads/{id}",
+    "ContainingType": "backend.Controllers.TeacherEnrollmentController",
+    "Method": "Update",
+    "RelativePath": "api/teacher-enrollments/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -345,19 +371,14 @@
         "IsRequired": true
       },
       {
-        "Name": "updateDto",
-        "Type": "backend.DTOs.StudentUploadDtos.UpdateStudentUploadDto",
-        "IsRequired": true
-      },
-      {
-        "Name": "studentId",
-        "Type": "",
+        "Name": "dto",
+        "Type": "backend.DTOs.TeacherEnrollmentDtos.CreateTeacherEnrollmentDto",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "backend.DTOs.StudentUploadDtos.StudentUploadResponseDto",
+        "Type": "backend.DTOs.TeacherEnrollmentDtos.TeacherEnrollmentDto",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -368,9 +389,9 @@
     ]
   },
   {
-    "ContainingType": "backend.Controllers.StudentUploadsController",
-    "Method": "DeleteStudentUpload",
-    "RelativePath": "api/students/{studentId}/StudentUploads/{id}",
+    "ContainingType": "backend.Controllers.TeacherEnrollmentController",
+    "Method": "Delete",
+    "RelativePath": "api/teacher-enrollments/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -378,104 +399,27 @@
       {
         "Name": "id",
         "Type": "System.Int32",
-        "IsRequired": true
-      },
-      {
-        "Name": "studentId",
-        "Type": "",
         "IsRequired": true
       }
     ],
     "ReturnTypes": []
   },
   {
-    "ContainingType": "backend.Controllers.TeacherFilesController",
-    "Method": "GetAll",
-    "RelativePath": "api/TeacherFiles",
+    "ContainingType": "backend.Controllers.TeacherEnrollmentController",
+    "Method": "GetCourseIdsByTeacherId",
+    "RelativePath": "api/teacher-enrollments/student/{studentId}/course-ids",
     "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": [
-      {
-        "Type": "System.Collections.Generic.List\u00601[[backend.DTOs.TeacherFileDtos.TeacherFileDto, backend, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "backend.Controllers.TeacherFilesController",
-    "Method": "Upload",
-    "RelativePath": "api/TeacherFiles",
-    "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "TeacherId",
+        "Name": "teacherId",
         "Type": "System.String",
         "IsRequired": false
       },
       {
-        "Name": "File",
-        "Type": "Microsoft.AspNetCore.Http.IFormFile",
-        "IsRequired": false
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "backend.DTOs.TeacherFileDtos.TeacherFileDto",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "backend.Controllers.TeacherFilesController",
-    "Method": "GetById",
-    "RelativePath": "api/TeacherFiles/{id}",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "backend.DTOs.TeacherFileDtos.TeacherFileDto",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "backend.Controllers.TeacherFilesController",
-    "Method": "Delete",
-    "RelativePath": "api/TeacherFiles/{id}",
-    "HttpMethod": "DELETE",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
+        "Name": "studentId",
+        "Type": "",
         "IsRequired": true
       }
     ],

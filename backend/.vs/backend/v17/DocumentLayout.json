@@ -3,12 +3,116 @@
   "WorkspaceRootPath": "D:\\github projects\\lms-angular-dotnet\\backend\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{7359BB60-5D8B-49DB-97C5-D703A4EFF545}|backend.csproj|d:\\github projects\\lms-angular-dotnet\\backend\\controllers\\teacherenrollmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7359BB60-5D8B-49DB-97C5-D703A4EFF545}|backend.csproj|solutionrelative:controllers\\teacherenrollmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7359BB60-5D8B-49DB-97C5-D703A4EFF545}|backend.csproj|d:\\github projects\\lms-angular-dotnet\\backend\\controllers\\enrollmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7359BB60-5D8B-49DB-97C5-D703A4EFF545}|backend.csproj|solutionrelative:controllers\\enrollmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7359BB60-5D8B-49DB-97C5-D703A4EFF545}|backend.csproj|d:\\github projects\\lms-angular-dotnet\\backend\\dtos\\teacherenrollmentdtos\\createteacherenrollmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7359BB60-5D8B-49DB-97C5-D703A4EFF545}|backend.csproj|solutionrelative:dtos\\teacherenrollmentdtos\\createteacherenrollmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7359BB60-5D8B-49DB-97C5-D703A4EFF545}|backend.csproj|d:\\github projects\\lms-angular-dotnet\\backend\\dtos\\teacherenrollmentdtos\\teachercourseiddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7359BB60-5D8B-49DB-97C5-D703A4EFF545}|backend.csproj|solutionrelative:dtos\\teacherenrollmentdtos\\teachercourseiddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7359BB60-5D8B-49DB-97C5-D703A4EFF545}|backend.csproj|d:\\github projects\\lms-angular-dotnet\\backend\\dtos\\teacherenrollmentdtos\\teacherenrollmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7359BB60-5D8B-49DB-97C5-D703A4EFF545}|backend.csproj|solutionrelative:dtos\\teacherenrollmentdtos\\teacherenrollmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7359BB60-5D8B-49DB-97C5-D703A4EFF545}|backend.csproj|d:\\github projects\\lms-angular-dotnet\\backend\\services\\teacherenrollmentservices\\teacherenrollmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7359BB60-5D8B-49DB-97C5-D703A4EFF545}|backend.csproj|solutionrelative:services\\teacherenrollmentservices\\teacherenrollmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7359BB60-5D8B-49DB-97C5-D703A4EFF545}|backend.csproj|d:\\github projects\\lms-angular-dotnet\\backend\\services\\teacherenrollmentservices\\iteacherenrollmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7359BB60-5D8B-49DB-97C5-D703A4EFF545}|backend.csproj|solutionrelative:services\\teacherenrollmentservices\\iteacherenrollmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7359BB60-5D8B-49DB-97C5-D703A4EFF545}|backend.csproj|d:\\github projects\\lms-angular-dotnet\\backend\\dtos\\studentenrollmentdtos\\courseiddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7359BB60-5D8B-49DB-97C5-D703A4EFF545}|backend.csproj|solutionrelative:dtos\\studentenrollmentdtos\\courseiddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7359BB60-5D8B-49DB-97C5-D703A4EFF545}|backend.csproj|d:\\github projects\\lms-angular-dotnet\\backend\\dtos\\studentenrollmentdtos\\createentollmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7359BB60-5D8B-49DB-97C5-D703A4EFF545}|backend.csproj|solutionrelative:dtos\\studentenrollmentdtos\\createentollmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7359BB60-5D8B-49DB-97C5-D703A4EFF545}|backend.csproj|d:\\github projects\\lms-angular-dotnet\\backend\\dtos\\studentenrollmentdtos\\enrollmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7359BB60-5D8B-49DB-97C5-D703A4EFF545}|backend.csproj|solutionrelative:dtos\\studentenrollmentdtos\\enrollmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7359BB60-5D8B-49DB-97C5-D703A4EFF545}|backend.csproj|d:\\github projects\\lms-angular-dotnet\\backend\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7359BB60-5D8B-49DB-97C5-D703A4EFF545}|backend.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7359BB60-5D8B-49DB-97C5-D703A4EFF545}|backend.csproj|d:\\github projects\\lms-angular-dotnet\\backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7359BB60-5D8B-49DB-97C5-D703A4EFF545}|backend.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7359BB60-5D8B-49DB-97C5-D703A4EFF545}|backend.csproj|d:\\github projects\\lms-angular-dotnet\\backend\\repositories\\teacherenrollmentrepo\\teacherenrollmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7359BB60-5D8B-49DB-97C5-D703A4EFF545}|backend.csproj|solutionrelative:repositories\\teacherenrollmentrepo\\teacherenrollmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7359BB60-5D8B-49DB-97C5-D703A4EFF545}|backend.csproj|d:\\github projects\\lms-angular-dotnet\\backend\\repositories\\teacherenrollmentrepo\\iteacherenrollmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7359BB60-5D8B-49DB-97C5-D703A4EFF545}|backend.csproj|solutionrelative:repositories\\teacherenrollmentrepo\\iteacherenrollmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7359BB60-5D8B-49DB-97C5-D703A4EFF545}|backend.csproj|d:\\github projects\\lms-angular-dotnet\\backend\\models\\teacherenrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7359BB60-5D8B-49DB-97C5-D703A4EFF545}|backend.csproj|solutionrelative:models\\teacherenrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7359BB60-5D8B-49DB-97C5-D703A4EFF545}|backend.csproj|d:\\github projects\\lms-angular-dotnet\\backend\\services\\studentenrollmentservices\\enrollmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7359BB60-5D8B-49DB-97C5-D703A4EFF545}|backend.csproj|solutionrelative:services\\studentenrollmentservices\\enrollmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7359BB60-5D8B-49DB-97C5-D703A4EFF545}|backend.csproj|d:\\github projects\\lms-angular-dotnet\\backend\\services\\studentenrollmentservices\\ienrollmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7359BB60-5D8B-49DB-97C5-D703A4EFF545}|backend.csproj|solutionrelative:services\\studentenrollmentservices\\ienrollmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7359BB60-5D8B-49DB-97C5-D703A4EFF545}|backend.csproj|d:\\github projects\\lms-angular-dotnet\\backend\\repositories\\studentenrollmentrepo\\ienrollmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7359BB60-5D8B-49DB-97C5-D703A4EFF545}|backend.csproj|solutionrelative:repositories\\studentenrollmentrepo\\ienrollmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7359BB60-5D8B-49DB-97C5-D703A4EFF545}|backend.csproj|d:\\github projects\\lms-angular-dotnet\\backend\\repositories\\studentenrollmentrepo\\enrollmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7359BB60-5D8B-49DB-97C5-D703A4EFF545}|backend.csproj|solutionrelative:repositories\\studentenrollmentrepo\\enrollmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7359BB60-5D8B-49DB-97C5-D703A4EFF545}|backend.csproj|d:\\github projects\\lms-angular-dotnet\\backend\\models\\enrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7359BB60-5D8B-49DB-97C5-D703A4EFF545}|backend.csproj|solutionrelative:models\\enrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7359BB60-5D8B-49DB-97C5-D703A4EFF545}|backend.csproj|d:\\github projects\\lms-angular-dotnet\\backend\\services\\studentservices\\istudentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7359BB60-5D8B-49DB-97C5-D703A4EFF545}|backend.csproj|solutionrelative:services\\studentservices\\istudentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7359BB60-5D8B-49DB-97C5-D703A4EFF545}|backend.csproj|d:\\github projects\\lms-angular-dotnet\\backend\\backend.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7359BB60-5D8B-49DB-97C5-D703A4EFF545}|backend.csproj|solutionrelative:backend.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7359BB60-5D8B-49DB-97C5-D703A4EFF545}|backend.csproj|d:\\github projects\\lms-angular-dotnet\\backend\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7359BB60-5D8B-49DB-97C5-D703A4EFF545}|backend.csproj|solutionrelative:controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7359BB60-5D8B-49DB-97C5-D703A4EFF545}|backend.csproj|d:\\github projects\\lms-angular-dotnet\\backend\\controllers\\teacherscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7359BB60-5D8B-49DB-97C5-D703A4EFF545}|backend.csproj|solutionrelative:controllers\\teacherscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7359BB60-5D8B-49DB-97C5-D703A4EFF545}|backend.csproj|d:\\github projects\\lms-angular-dotnet\\backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7359BB60-5D8B-49DB-97C5-D703A4EFF545}|backend.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\github projects\\lms-angular-dotnet\\backend\\Migrations\\20250608030544_Enrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250608030544_Enrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7359BB60-5D8B-49DB-97C5-D703A4EFF545}|backend.csproj|d:\\github projects\\lms-angular-dotnet\\backend\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7359BB60-5D8B-49DB-97C5-D703A4EFF545}|backend.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7359BB60-5D8B-49DB-97C5-D703A4EFF545}|backend.csproj|d:\\github projects\\lms-angular-dotnet\\backend\\dtos\\userdros\\authresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7359BB60-5D8B-49DB-97C5-D703A4EFF545}|backend.csproj|solutionrelative:dtos\\userdros\\authresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7359BB60-5D8B-49DB-97C5-D703A4EFF545}|backend.csproj|d:\\github projects\\lms-angular-dotnet\\backend\\mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,20 +131,12 @@
       "RelativeMoniker": "D:0:0:{7359BB60-5D8B-49DB-97C5-D703A4EFF545}|backend.csproj|solutionrelative:helpers\\jwttokengenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7359BB60-5D8B-49DB-97C5-D703A4EFF545}|backend.csproj|d:\\github projects\\lms-angular-dotnet\\backend\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7359BB60-5D8B-49DB-97C5-D703A4EFF545}|backend.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7359BB60-5D8B-49DB-97C5-D703A4EFF545}|backend.csproj|d:\\github projects\\lms-angular-dotnet\\backend\\dtos\\teacherdtos\\createteacherdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7359BB60-5D8B-49DB-97C5-D703A4EFF545}|backend.csproj|solutionrelative:dtos\\teacherdtos\\createteacherdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7359BB60-5D8B-49DB-97C5-D703A4EFF545}|backend.csproj|d:\\github projects\\lms-angular-dotnet\\backend\\dtos\\studentdtos\\createstudentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7359BB60-5D8B-49DB-97C5-D703A4EFF545}|backend.csproj|solutionrelative:dtos\\studentdtos\\createstudentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\github projects\\lms-angular-dotnet\\backend\\Migrations\\20250607191713_addUserName.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250607191713_addUserName.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7359BB60-5D8B-49DB-97C5-D703A4EFF545}|backend.csproj|d:\\github projects\\lms-angular-dotnet\\backend\\services\\studentservices\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -79,88 +175,8 @@
       "RelativeMoniker": "D:0:0:{7359BB60-5D8B-49DB-97C5-D703A4EFF545}|backend.csproj|solutionrelative:dtos\\studentdtos\\studentresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7359BB60-5D8B-49DB-97C5-D703A4EFF545}|backend.csproj|d:\\github projects\\lms-angular-dotnet\\backend\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7359BB60-5D8B-49DB-97C5-D703A4EFF545}|backend.csproj|solutionrelative:controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7359BB60-5D8B-49DB-97C5-D703A4EFF545}|backend.csproj|d:\\github projects\\lms-angular-dotnet\\backend\\models\\studentfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7359BB60-5D8B-49DB-97C5-D703A4EFF545}|backend.csproj|solutionrelative:models\\studentfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7359BB60-5D8B-49DB-97C5-D703A4EFF545}|backend.csproj|d:\\github projects\\lms-angular-dotnet\\backend\\dtos\\studentfilesdtos\\studentfiledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7359BB60-5D8B-49DB-97C5-D703A4EFF545}|backend.csproj|solutionrelative:dtos\\studentfilesdtos\\studentfiledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7359BB60-5D8B-49DB-97C5-D703A4EFF545}|backend.csproj|d:\\github projects\\lms-angular-dotnet\\backend\\dtos\\studentfilesdtos\\createstudentfiledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7359BB60-5D8B-49DB-97C5-D703A4EFF545}|backend.csproj|solutionrelative:dtos\\studentfilesdtos\\createstudentfiledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7359BB60-5D8B-49DB-97C5-D703A4EFF545}|backend.csproj|d:\\github projects\\lms-angular-dotnet\\backend\\services\\studentfileservices\\studentfileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7359BB60-5D8B-49DB-97C5-D703A4EFF545}|backend.csproj|solutionrelative:services\\studentfileservices\\studentfileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7359BB60-5D8B-49DB-97C5-D703A4EFF545}|backend.csproj|d:\\github projects\\lms-angular-dotnet\\backend\\repositories\\studentfilerepo\\studentfilerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7359BB60-5D8B-49DB-97C5-D703A4EFF545}|backend.csproj|solutionrelative:repositories\\studentfilerepo\\studentfilerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7359BB60-5D8B-49DB-97C5-D703A4EFF545}|backend.csproj|d:\\github projects\\lms-angular-dotnet\\backend\\repositories\\studentfilerepo\\istudentfilerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7359BB60-5D8B-49DB-97C5-D703A4EFF545}|backend.csproj|solutionrelative:repositories\\studentfilerepo\\istudentfilerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7359BB60-5D8B-49DB-97C5-D703A4EFF545}|backend.csproj|d:\\github projects\\lms-angular-dotnet\\backend\\controllers\\studentfilescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7359BB60-5D8B-49DB-97C5-D703A4EFF545}|backend.csproj|solutionrelative:controllers\\studentfilescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7359BB60-5D8B-49DB-97C5-D703A4EFF545}|backend.csproj|d:\\github projects\\lms-angular-dotnet\\backend\\controllers\\teacherfilescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7359BB60-5D8B-49DB-97C5-D703A4EFF545}|backend.csproj|solutionrelative:controllers\\teacherfilescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7359BB60-5D8B-49DB-97C5-D703A4EFF545}|backend.csproj|d:\\github projects\\lms-angular-dotnet\\backend\\controllers\\teacherscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7359BB60-5D8B-49DB-97C5-D703A4EFF545}|backend.csproj|solutionrelative:controllers\\teacherscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7359BB60-5D8B-49DB-97C5-D703A4EFF545}|backend.csproj|d:\\github projects\\lms-angular-dotnet\\backend\\repositories\\teacherfilerepo\\teacherfilerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7359BB60-5D8B-49DB-97C5-D703A4EFF545}|backend.csproj|solutionrelative:repositories\\teacherfilerepo\\teacherfilerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7359BB60-5D8B-49DB-97C5-D703A4EFF545}|backend.csproj|d:\\github projects\\lms-angular-dotnet\\backend\\services\\teacherfileservices\\teacherfileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7359BB60-5D8B-49DB-97C5-D703A4EFF545}|backend.csproj|solutionrelative:services\\teacherfileservices\\teacherfileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7359BB60-5D8B-49DB-97C5-D703A4EFF545}|backend.csproj|d:\\github projects\\lms-angular-dotnet\\backend\\services\\teacherfileservices\\iteacherfileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7359BB60-5D8B-49DB-97C5-D703A4EFF545}|backend.csproj|solutionrelative:services\\teacherfileservices\\iteacherfileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7359BB60-5D8B-49DB-97C5-D703A4EFF545}|backend.csproj|d:\\github projects\\lms-angular-dotnet\\backend\\services\\studentfileservices\\istudentfileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7359BB60-5D8B-49DB-97C5-D703A4EFF545}|backend.csproj|solutionrelative:services\\studentfileservices\\istudentfileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7359BB60-5D8B-49DB-97C5-D703A4EFF545}|backend.csproj|d:\\github projects\\lms-angular-dotnet\\backend\\repositories\\teacherfilerepo\\iteacherfilerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7359BB60-5D8B-49DB-97C5-D703A4EFF545}|backend.csproj|solutionrelative:repositories\\teacherfilerepo\\iteacherfilerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7359BB60-5D8B-49DB-97C5-D703A4EFF545}|backend.csproj|d:\\github projects\\lms-angular-dotnet\\backend\\dtos\\teacherfiledtos\\teacherfiledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7359BB60-5D8B-49DB-97C5-D703A4EFF545}|backend.csproj|solutionrelative:dtos\\teacherfiledtos\\teacherfiledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7359BB60-5D8B-49DB-97C5-D703A4EFF545}|backend.csproj|d:\\github projects\\lms-angular-dotnet\\backend\\dtos\\teacherfiledtos\\createteacherfiledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7359BB60-5D8B-49DB-97C5-D703A4EFF545}|backend.csproj|solutionrelative:dtos\\teacherfiledtos\\createteacherfiledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7359BB60-5D8B-49DB-97C5-D703A4EFF545}|backend.csproj|d:\\github projects\\lms-angular-dotnet\\backend\\models\\teacherfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7359BB60-5D8B-49DB-97C5-D703A4EFF545}|backend.csproj|solutionrelative:models\\teacherfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7359BB60-5D8B-49DB-97C5-D703A4EFF545}|backend.csproj|d:\\github projects\\lms-angular-dotnet\\backend\\dtos\\userdros\\authresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7359BB60-5D8B-49DB-97C5-D703A4EFF545}|backend.csproj|solutionrelative:dtos\\userdros\\authresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7359BB60-5D8B-49DB-97C5-D703A4EFF545}|backend.csproj|d:\\github projects\\lms-angular-dotnet\\backend\\services\\teacherservices\\iteacherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7359BB60-5D8B-49DB-97C5-D703A4EFF545}|backend.csproj|solutionrelative:services\\teacherservices\\iteacherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7359BB60-5D8B-49DB-97C5-D703A4EFF545}|backend.csproj|d:\\github projects\\lms-angular-dotnet\\backend\\services\\studentservices\\istudentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7359BB60-5D8B-49DB-97C5-D703A4EFF545}|backend.csproj|solutionrelative:services\\studentservices\\istudentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7359BB60-5D8B-49DB-97C5-D703A4EFF545}|backend.csproj|d:\\github projects\\lms-angular-dotnet\\backend\\services\\userservices\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -179,10 +195,6 @@
       "RelativeMoniker": "D:0:0:{7359BB60-5D8B-49DB-97C5-D703A4EFF545}|backend.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7359BB60-5D8B-49DB-97C5-D703A4EFF545}|backend.csproj|d:\\github projects\\lms-angular-dotnet\\backend\\migrations\\20250606170519_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7359BB60-5D8B-49DB-97C5-D703A4EFF545}|backend.csproj|solutionrelative:migrations\\20250606170519_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\github projects\\lms-angular-dotnet\\backend\\Migrations\\20250606170122_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250606170122_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -199,10 +211,6 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250606165444_Second.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7359BB60-5D8B-49DB-97C5-D703A4EFF545}|backend.csproj|d:\\github projects\\lms-angular-dotnet\\backend\\backend.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{7359BB60-5D8B-49DB-97C5-D703A4EFF545}|backend.csproj|solutionrelative:backend.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7359BB60-5D8B-49DB-97C5-D703A4EFF545}|backend.csproj|d:\\github projects\\lms-angular-dotnet\\backend\\services\\userservices\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7359BB60-5D8B-49DB-97C5-D703A4EFF545}|backend.csproj|solutionrelative:services\\userservices\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -215,10 +223,6 @@
       "RelativeMoniker": "D:0:0:{7359BB60-5D8B-49DB-97C5-D703A4EFF545}|backend.csproj|solutionrelative:dtos\\userdros\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7359BB60-5D8B-49DB-97C5-D703A4EFF545}|backend.csproj|d:\\github projects\\lms-angular-dotnet\\backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{7359BB60-5D8B-49DB-97C5-D703A4EFF545}|backend.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\github projects\\Learning-System-Nextjs-dotnet\\backend\\Migrations\\20250606053141_Init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -226,12 +230,12 @@
       "RelativeMoniker": "D:0:0:{7359BB60-5D8B-49DB-97C5-D703A4EFF545}|backend.csproj|solutionrelative:repositories\\userrepo\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7359BB60-5D8B-49DB-97C5-D703A4EFF545}|backend.csproj|d:\\github projects\\lms-angular-dotnet\\backend\\migrations\\20250607160614_storefiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7359BB60-5D8B-49DB-97C5-D703A4EFF545}|backend.csproj|solutionrelative:migrations\\20250607160614_storefiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7359BB60-5D8B-49DB-97C5-D703A4EFF545}|backend.csproj|d:\\github projects\\lms-angular-dotnet\\backend\\migrations\\20250608054350_teacherenroll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7359BB60-5D8B-49DB-97C5-D703A4EFF545}|backend.csproj|solutionrelative:migrations\\20250608054350_teacherenroll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7359BB60-5D8B-49DB-97C5-D703A4EFF545}|backend.csproj|d:\\github projects\\lms-angular-dotnet\\backend\\migrations\\20250607141956_teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7359BB60-5D8B-49DB-97C5-D703A4EFF545}|backend.csproj|solutionrelative:migrations\\20250607141956_teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7359BB60-5D8B-49DB-97C5-D703A4EFF545}|backend.csproj|d:\\github projects\\lms-angular-dotnet\\backend\\migrations\\20250608031614_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7359BB60-5D8B-49DB-97C5-D703A4EFF545}|backend.csproj|solutionrelative:migrations\\20250608031614_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -241,513 +245,270 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "JwtTokenGenerator.cs",
-              "DocumentMoniker": "D:\\github projects\\lms-angular-dotnet\\backend\\Helpers\\JwtTokenGenerator.cs",
-              "RelativeDocumentMoniker": "Helpers\\JwtTokenGenerator.cs",
-              "ToolTip": "D:\\github projects\\lms-angular-dotnet\\backend\\Helpers\\JwtTokenGenerator.cs",
-              "RelativeToolTip": "Helpers\\JwtTokenGenerator.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAYwCUAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-06T05:24:28.004Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "User.cs",
-              "DocumentMoniker": "D:\\github projects\\lms-angular-dotnet\\backend\\Models\\User.cs",
-              "RelativeDocumentMoniker": "Models\\User.cs",
-              "ToolTip": "D:\\github projects\\lms-angular-dotnet\\backend\\Models\\User.cs",
-              "RelativeToolTip": "Models\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-06T05:09:39.668Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ITeacherRepository.cs",
-              "DocumentMoniker": "D:\\github projects\\lms-angular-dotnet\\backend\\Repositories\\TeacherRepo\\ITeacherRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\TeacherRepo\\ITeacherRepository.cs",
-              "ToolTip": "D:\\github projects\\lms-angular-dotnet\\backend\\Repositories\\TeacherRepo\\ITeacherRepository.cs",
-              "RelativeToolTip": "Repositories\\TeacherRepo\\ITeacherRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T13:58:14.436Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "IStudentRepository.cs",
-              "DocumentMoniker": "D:\\github projects\\lms-angular-dotnet\\backend\\Repositories\\StudentRepo\\IStudentRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\StudentRepo\\IStudentRepository.cs",
-              "ToolTip": "D:\\github projects\\lms-angular-dotnet\\backend\\Repositories\\StudentRepo\\IStudentRepository.cs",
-              "RelativeToolTip": "Repositories\\StudentRepo\\IStudentRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-06T16:19:11.434Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\github projects\\lms-angular-dotnet\\backend\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\github projects\\lms-angular-dotnet\\backend\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-06T05:26:36.579Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Student.cs",
-              "DocumentMoniker": "D:\\github projects\\lms-angular-dotnet\\backend\\Models\\Student.cs",
-              "RelativeDocumentMoniker": "Models\\Student.cs",
-              "ToolTip": "D:\\github projects\\lms-angular-dotnet\\backend\\Models\\Student.cs",
-              "RelativeToolTip": "Models\\Student.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Title": "TeacherEnrollmentDto.cs",
+              "DocumentMoniker": "D:\\github projects\\lms-angular-dotnet\\backend\\DTOs\\TeacherEnrollmentDtos\\TeacherEnrollmentDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\TeacherEnrollmentDtos\\TeacherEnrollmentDto.cs",
+              "ToolTip": "D:\\github projects\\lms-angular-dotnet\\backend\\DTOs\\TeacherEnrollmentDtos\\TeacherEnrollmentDto.cs",
+              "RelativeToolTip": "DTOs\\TeacherEnrollmentDtos\\TeacherEnrollmentDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-06T16:14:35.577Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Teacher.cs",
-              "DocumentMoniker": "D:\\github projects\\lms-angular-dotnet\\backend\\Models\\Teacher.cs",
-              "RelativeDocumentMoniker": "Models\\Teacher.cs",
-              "ToolTip": "D:\\github projects\\lms-angular-dotnet\\backend\\Models\\Teacher.cs",
-              "RelativeToolTip": "Models\\Teacher.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T13:41:04.202Z",
+              "WhenOpened": "2025-06-08T06:53:35.562Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "MappingProfile.cs",
-              "DocumentMoniker": "D:\\github projects\\lms-angular-dotnet\\backend\\Mapping\\MappingProfile.cs",
-              "RelativeDocumentMoniker": "Mapping\\MappingProfile.cs",
-              "ToolTip": "D:\\github projects\\lms-angular-dotnet\\backend\\Mapping\\MappingProfile.cs",
-              "RelativeToolTip": "Mapping\\MappingProfile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Title": "CreateTeacherEnrollmentDto.cs",
+              "DocumentMoniker": "D:\\github projects\\lms-angular-dotnet\\backend\\DTOs\\TeacherEnrollmentDtos\\CreateTeacherEnrollmentDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\TeacherEnrollmentDtos\\CreateTeacherEnrollmentDto.cs",
+              "ToolTip": "D:\\github projects\\lms-angular-dotnet\\backend\\DTOs\\TeacherEnrollmentDtos\\CreateTeacherEnrollmentDto.cs",
+              "RelativeToolTip": "DTOs\\TeacherEnrollmentDtos\\CreateTeacherEnrollmentDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-06T16:50:53.691Z",
+              "WhenOpened": "2025-06-08T06:54:24.301Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "TeacherEnrollmentController.cs",
+              "DocumentMoniker": "D:\\github projects\\lms-angular-dotnet\\backend\\Controllers\\TeacherEnrollmentController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TeacherEnrollmentController.cs",
+              "ToolTip": "D:\\github projects\\lms-angular-dotnet\\backend\\Controllers\\TeacherEnrollmentController.cs",
+              "RelativeToolTip": "Controllers\\TeacherEnrollmentController.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAowDoAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T06:32:14.924Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ITeacherEnrollmentService.cs",
+              "DocumentMoniker": "D:\\github projects\\lms-angular-dotnet\\backend\\Services\\TeacherEnrollmentServices\\ITeacherEnrollmentService.cs",
+              "RelativeDocumentMoniker": "Services\\TeacherEnrollmentServices\\ITeacherEnrollmentService.cs",
+              "ToolTip": "D:\\github projects\\lms-angular-dotnet\\backend\\Services\\TeacherEnrollmentServices\\ITeacherEnrollmentService.cs",
+              "RelativeToolTip": "Services\\TeacherEnrollmentServices\\ITeacherEnrollmentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T05:24:43.699Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EnrollmentController.cs",
+              "DocumentMoniker": "D:\\github projects\\lms-angular-dotnet\\backend\\Controllers\\EnrollmentController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EnrollmentController.cs",
+              "ToolTip": "D:\\github projects\\lms-angular-dotnet\\backend\\Controllers\\EnrollmentController.cs",
+              "RelativeToolTip": "Controllers\\EnrollmentController.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAAADoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T03:00:02.157Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TeacherEnrollmentService.cs",
+              "DocumentMoniker": "D:\\github projects\\lms-angular-dotnet\\backend\\Services\\TeacherEnrollmentServices\\TeacherEnrollmentService.cs",
+              "RelativeDocumentMoniker": "Services\\TeacherEnrollmentServices\\TeacherEnrollmentService.cs",
+              "ToolTip": "D:\\github projects\\lms-angular-dotnet\\backend\\Services\\TeacherEnrollmentServices\\TeacherEnrollmentService.cs",
+              "RelativeToolTip": "Services\\TeacherEnrollmentServices\\TeacherEnrollmentService.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAYwA8AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T05:26:25.007Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TeacherCourseIdDto.cs",
+              "DocumentMoniker": "D:\\github projects\\lms-angular-dotnet\\backend\\DTOs\\TeacherEnrollmentDtos\\TeacherCourseIdDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\TeacherEnrollmentDtos\\TeacherCourseIdDto.cs",
+              "ToolTip": "D:\\github projects\\lms-angular-dotnet\\backend\\DTOs\\TeacherEnrollmentDtos\\TeacherCourseIdDto.cs",
+              "RelativeToolTip": "DTOs\\TeacherEnrollmentDtos\\TeacherCourseIdDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T06:55:01.001Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CourseIdDto.cs",
+              "DocumentMoniker": "D:\\github projects\\lms-angular-dotnet\\backend\\DTOs\\StudentEnrollmentDtos\\CourseIdDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\StudentEnrollmentDtos\\CourseIdDto.cs",
+              "ToolTip": "D:\\github projects\\lms-angular-dotnet\\backend\\DTOs\\StudentEnrollmentDtos\\CourseIdDto.cs",
+              "RelativeToolTip": "DTOs\\StudentEnrollmentDtos\\CourseIdDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T04:23:43.085Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "D:\\github projects\\lms-angular-dotnet\\backend\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
               "ToolTip": "D:\\github projects\\lms-angular-dotnet\\backend\\Data\\AppDbContext.cs",
               "RelativeToolTip": "Data\\AppDbContext.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAzwBsAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-06T05:10:45.745Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "CreateTeacherDto.cs",
-              "DocumentMoniker": "D:\\github projects\\lms-angular-dotnet\\backend\\DTOs\\TeacherDtos\\CreateTeacherDto.cs",
-              "RelativeDocumentMoniker": "DTOs\\TeacherDtos\\CreateTeacherDto.cs",
-              "ToolTip": "D:\\github projects\\lms-angular-dotnet\\backend\\DTOs\\TeacherDtos\\CreateTeacherDto.cs",
-              "RelativeToolTip": "DTOs\\TeacherDtos\\CreateTeacherDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAsAAAAAAAAAA==",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\github projects\\lms-angular-dotnet\\backend\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\github projects\\lms-angular-dotnet\\backend\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAowF0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T13:46:00.613Z",
+              "WhenOpened": "2025-06-06T05:26:36.579Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "CreateStudentDto.cs",
-              "DocumentMoniker": "D:\\github projects\\lms-angular-dotnet\\backend\\DTOs\\StudentDtos\\CreateStudentDto.cs",
-              "RelativeDocumentMoniker": "DTOs\\StudentDtos\\CreateStudentDto.cs",
-              "ToolTip": "D:\\github projects\\lms-angular-dotnet\\backend\\DTOs\\StudentDtos\\CreateStudentDto.cs",
-              "RelativeToolTip": "DTOs\\StudentDtos\\CreateStudentDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAsAAAAAAAAAA==",
+              "Title": "CreateEntollmentDto.cs",
+              "DocumentMoniker": "D:\\github projects\\lms-angular-dotnet\\backend\\DTOs\\StudentEnrollmentDtos\\CreateEntollmentDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\StudentEnrollmentDtos\\CreateEntollmentDto.cs",
+              "ToolTip": "D:\\github projects\\lms-angular-dotnet\\backend\\DTOs\\StudentEnrollmentDtos\\CreateEntollmentDto.cs",
+              "RelativeToolTip": "DTOs\\StudentEnrollmentDtos\\CreateEntollmentDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-06T16:16:03.396Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "TeacherRepository.cs",
-              "DocumentMoniker": "D:\\github projects\\lms-angular-dotnet\\backend\\Repositories\\TeacherRepo\\TeacherRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\TeacherRepo\\TeacherRepository.cs",
-              "ToolTip": "D:\\github projects\\lms-angular-dotnet\\backend\\Repositories\\TeacherRepo\\TeacherRepository.cs",
-              "RelativeToolTip": "Repositories\\TeacherRepo\\TeacherRepository.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAgwDEAAABeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T13:59:07.164Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "StudentRepository.cs",
-              "DocumentMoniker": "D:\\github projects\\lms-angular-dotnet\\backend\\Repositories\\StudentRepo\\StudentRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\StudentRepo\\StudentRepository.cs",
-              "ToolTip": "D:\\github projects\\lms-angular-dotnet\\backend\\Repositories\\StudentRepo\\StudentRepository.cs",
-              "RelativeToolTip": "Repositories\\StudentRepo\\StudentRepository.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAowC8AAABdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-06T16:19:37.565Z",
+              "WhenOpened": "2025-06-08T02:54:14.233Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "20250607191713_addUserName.cs",
-              "DocumentMoniker": "D:\\github projects\\lms-angular-dotnet\\backend\\Migrations\\20250607191713_addUserName.cs",
-              "RelativeDocumentMoniker": "Migrations\\20250607191713_addUserName.cs",
-              "ToolTip": "D:\\github projects\\lms-angular-dotnet\\backend\\Migrations\\20250607191713_addUserName.cs",
-              "RelativeToolTip": "Migrations\\20250607191713_addUserName.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "EnrollmentDto.cs",
+              "DocumentMoniker": "D:\\github projects\\lms-angular-dotnet\\backend\\DTOs\\StudentEnrollmentDtos\\EnrollmentDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\StudentEnrollmentDtos\\EnrollmentDto.cs",
+              "ToolTip": "D:\\github projects\\lms-angular-dotnet\\backend\\DTOs\\StudentEnrollmentDtos\\EnrollmentDto.cs",
+              "RelativeToolTip": "DTOs\\StudentEnrollmentDtos\\EnrollmentDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T19:17:13.561Z",
+              "WhenOpened": "2025-06-08T02:54:35.189Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "TeacherEnrollmentRepository.cs",
+              "DocumentMoniker": "D:\\github projects\\lms-angular-dotnet\\backend\\Repositories\\TeacherEnrollmentRepo\\TeacherEnrollmentRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\TeacherEnrollmentRepo\\TeacherEnrollmentRepository.cs",
+              "ToolTip": "D:\\github projects\\lms-angular-dotnet\\backend\\Repositories\\TeacherEnrollmentRepo\\TeacherEnrollmentRepository.cs",
+              "RelativeToolTip": "Repositories\\TeacherEnrollmentRepo\\TeacherEnrollmentRepository.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAA5wDgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T05:15:43.748Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ITeacherEnrollmentRepository.cs",
+              "DocumentMoniker": "D:\\github projects\\lms-angular-dotnet\\backend\\Repositories\\TeacherEnrollmentRepo\\ITeacherEnrollmentRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\TeacherEnrollmentRepo\\ITeacherEnrollmentRepository.cs",
+              "ToolTip": "D:\\github projects\\lms-angular-dotnet\\backend\\Repositories\\TeacherEnrollmentRepo\\ITeacherEnrollmentRepository.cs",
+              "RelativeToolTip": "Repositories\\TeacherEnrollmentRepo\\ITeacherEnrollmentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T05:14:03.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "TeacherEnrollment.cs",
+              "DocumentMoniker": "D:\\github projects\\lms-angular-dotnet\\backend\\Models\\TeacherEnrollment.cs",
+              "RelativeDocumentMoniker": "Models\\TeacherEnrollment.cs",
+              "ToolTip": "D:\\github projects\\lms-angular-dotnet\\backend\\Models\\TeacherEnrollment.cs",
+              "RelativeToolTip": "Models\\TeacherEnrollment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T05:08:07.905Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
-              "Title": "UpdateTeacherDto.cs",
-              "DocumentMoniker": "D:\\github projects\\lms-angular-dotnet\\backend\\DTOs\\TeacherDtos\\UpdateTeacherDto.cs",
-              "RelativeDocumentMoniker": "DTOs\\TeacherDtos\\UpdateTeacherDto.cs",
-              "ToolTip": "D:\\github projects\\lms-angular-dotnet\\backend\\DTOs\\TeacherDtos\\UpdateTeacherDto.cs",
-              "RelativeToolTip": "DTOs\\TeacherDtos\\UpdateTeacherDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Title": "EnrollmentService.cs",
+              "DocumentMoniker": "D:\\github projects\\lms-angular-dotnet\\backend\\Services\\StudentEnrollmentServices\\EnrollmentService.cs",
+              "RelativeDocumentMoniker": "Services\\StudentEnrollmentServices\\EnrollmentService.cs",
+              "ToolTip": "D:\\github projects\\lms-angular-dotnet\\backend\\Services\\StudentEnrollmentServices\\EnrollmentService.cs",
+              "RelativeToolTip": "Services\\StudentEnrollmentServices\\EnrollmentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAwAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T13:47:29.941Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "StudentService.cs",
-              "DocumentMoniker": "D:\\github projects\\lms-angular-dotnet\\backend\\Services\\StudentServices\\StudentService.cs",
-              "RelativeDocumentMoniker": "Services\\StudentServices\\StudentService.cs",
-              "ToolTip": "D:\\github projects\\lms-angular-dotnet\\backend\\Services\\StudentServices\\StudentService.cs",
-              "RelativeToolTip": "Services\\StudentServices\\StudentService.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwAoAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-06T16:22:49.567Z",
+              "WhenOpened": "2025-06-08T02:59:23.619Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 16,
-              "Title": "TeacherResponseDto.cs",
-              "DocumentMoniker": "D:\\github projects\\lms-angular-dotnet\\backend\\DTOs\\TeacherDtos\\TeacherResponseDto.cs",
-              "RelativeDocumentMoniker": "DTOs\\TeacherDtos\\TeacherResponseDto.cs",
-              "ToolTip": "D:\\github projects\\lms-angular-dotnet\\backend\\DTOs\\TeacherDtos\\TeacherResponseDto.cs",
-              "RelativeToolTip": "DTOs\\TeacherDtos\\TeacherResponseDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAsAAAAAAAAAA==",
+              "Title": "IEnrollmentService.cs",
+              "DocumentMoniker": "D:\\github projects\\lms-angular-dotnet\\backend\\Services\\StudentEnrollmentServices\\IEnrollmentService.cs",
+              "RelativeDocumentMoniker": "Services\\StudentEnrollmentServices\\IEnrollmentService.cs",
+              "ToolTip": "D:\\github projects\\lms-angular-dotnet\\backend\\Services\\StudentEnrollmentServices\\IEnrollmentService.cs",
+              "RelativeToolTip": "Services\\StudentEnrollmentServices\\IEnrollmentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAUAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T13:49:30.178Z",
+              "WhenOpened": "2025-06-08T02:56:23.236Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 17,
-              "Title": "UpdateStudentDto.cs",
-              "DocumentMoniker": "D:\\github projects\\lms-angular-dotnet\\backend\\DTOs\\StudentDtos\\UpdateStudentDto.cs",
-              "RelativeDocumentMoniker": "DTOs\\StudentDtos\\UpdateStudentDto.cs",
-              "ToolTip": "D:\\github projects\\lms-angular-dotnet\\backend\\DTOs\\StudentDtos\\UpdateStudentDto.cs",
-              "RelativeToolTip": "DTOs\\StudentDtos\\UpdateStudentDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAApAAAAAAAAAA==",
+              "Title": "IEnrollmentRepository.cs",
+              "DocumentMoniker": "D:\\github projects\\lms-angular-dotnet\\backend\\Repositories\\StudentEnrollmentRepo\\IEnrollmentRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\StudentEnrollmentRepo\\IEnrollmentRepository.cs",
+              "ToolTip": "D:\\github projects\\lms-angular-dotnet\\backend\\Repositories\\StudentEnrollmentRepo\\IEnrollmentRepository.cs",
+              "RelativeToolTip": "Repositories\\StudentEnrollmentRepo\\IEnrollmentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAQAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-06T16:16:30.915Z",
+              "WhenOpened": "2025-06-08T02:55:24.211Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 18,
-              "Title": "StudentResponseDto.cs",
-              "DocumentMoniker": "D:\\github projects\\lms-angular-dotnet\\backend\\DTOs\\StudentDtos\\StudentResponseDto.cs",
-              "RelativeDocumentMoniker": "DTOs\\StudentDtos\\StudentResponseDto.cs",
-              "ToolTip": "D:\\github projects\\lms-angular-dotnet\\backend\\DTOs\\StudentDtos\\StudentResponseDto.cs",
-              "RelativeToolTip": "DTOs\\StudentDtos\\StudentResponseDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAIAAAAAAAAAA==",
+              "Title": "EnrollmentRepository.cs",
+              "DocumentMoniker": "D:\\github projects\\lms-angular-dotnet\\backend\\Repositories\\StudentEnrollmentRepo\\EnrollmentRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\StudentEnrollmentRepo\\EnrollmentRepository.cs",
+              "ToolTip": "D:\\github projects\\lms-angular-dotnet\\backend\\Repositories\\StudentEnrollmentRepo\\EnrollmentRepository.cs",
+              "RelativeToolTip": "Repositories\\StudentEnrollmentRepo\\EnrollmentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-06T16:17:03.238Z",
+              "WhenOpened": "2025-06-08T02:55:45.254Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 19,
-              "Title": "StudentsController.cs",
-              "DocumentMoniker": "D:\\github projects\\lms-angular-dotnet\\backend\\Controllers\\StudentsController.cs",
-              "RelativeDocumentMoniker": "Controllers\\StudentsController.cs",
-              "ToolTip": "D:\\github projects\\lms-angular-dotnet\\backend\\Controllers\\StudentsController.cs",
-              "RelativeToolTip": "Controllers\\StudentsController.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwAoAAAAFAAAAAAAAAA==",
+              "Title": "Enrollment.cs",
+              "DocumentMoniker": "D:\\github projects\\lms-angular-dotnet\\backend\\Models\\Enrollment.cs",
+              "RelativeDocumentMoniker": "Models\\Enrollment.cs",
+              "ToolTip": "D:\\github projects\\lms-angular-dotnet\\backend\\Models\\Enrollment.cs",
+              "RelativeToolTip": "Models\\Enrollment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-06T16:26:22.623Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "StudentFileService.cs",
-              "DocumentMoniker": "D:\\github projects\\lms-angular-dotnet\\backend\\Services\\StudentFileServices\\StudentFileService.cs",
-              "RelativeDocumentMoniker": "Services\\StudentFileServices\\StudentFileService.cs",
-              "ToolTip": "D:\\github projects\\lms-angular-dotnet\\backend\\Services\\StudentFileServices\\StudentFileService.cs",
-              "RelativeToolTip": "Services\\StudentFileServices\\StudentFileService.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwEoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T15:54:36.057Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "StudentFileRepository.cs",
-              "DocumentMoniker": "D:\\github projects\\lms-angular-dotnet\\backend\\Repositories\\StudentFileRepo\\StudentFileRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\StudentFileRepo\\StudentFileRepository.cs",
-              "ToolTip": "D:\\github projects\\lms-angular-dotnet\\backend\\Repositories\\StudentFileRepo\\StudentFileRepository.cs",
-              "RelativeToolTip": "Repositories\\StudentFileRepo\\StudentFileRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T15:48:39.235Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "IStudentFileRepository.cs",
-              "DocumentMoniker": "D:\\github projects\\lms-angular-dotnet\\backend\\Repositories\\StudentFileRepo\\IStudentFileRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\StudentFileRepo\\IStudentFileRepository.cs",
-              "ToolTip": "D:\\github projects\\lms-angular-dotnet\\backend\\Repositories\\StudentFileRepo\\IStudentFileRepository.cs",
-              "RelativeToolTip": "Repositories\\StudentFileRepo\\IStudentFileRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T15:48:17.539Z"
+              "WhenOpened": "2025-06-08T02:53:34.891Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 20,
-              "Title": "StudentFile.cs",
-              "DocumentMoniker": "D:\\github projects\\lms-angular-dotnet\\backend\\Models\\StudentFile.cs",
-              "RelativeDocumentMoniker": "Models\\StudentFile.cs",
-              "ToolTip": "D:\\github projects\\lms-angular-dotnet\\backend\\Models\\StudentFile.cs",
-              "RelativeToolTip": "Models\\StudentFile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T15:44:00.156Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "StudentFileDto.cs",
-              "DocumentMoniker": "D:\\github projects\\lms-angular-dotnet\\backend\\DTOs\\StudentFilesDtos\\StudentFileDto.cs",
-              "RelativeDocumentMoniker": "DTOs\\StudentFilesDtos\\StudentFileDto.cs",
-              "ToolTip": "D:\\github projects\\lms-angular-dotnet\\backend\\DTOs\\StudentFilesDtos\\StudentFileDto.cs",
-              "RelativeToolTip": "DTOs\\StudentFilesDtos\\StudentFileDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T15:45:26.924Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "CreateStudentFileDto.cs",
-              "DocumentMoniker": "D:\\github projects\\lms-angular-dotnet\\backend\\DTOs\\StudentFilesDtos\\CreateStudentFileDto.cs",
-              "RelativeDocumentMoniker": "DTOs\\StudentFilesDtos\\CreateStudentFileDto.cs",
-              "ToolTip": "D:\\github projects\\lms-angular-dotnet\\backend\\DTOs\\StudentFilesDtos\\CreateStudentFileDto.cs",
-              "RelativeToolTip": "DTOs\\StudentFilesDtos\\CreateStudentFileDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T15:44:57.551Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "StudentFilesController.cs",
-              "DocumentMoniker": "D:\\github projects\\lms-angular-dotnet\\backend\\Controllers\\StudentFilesController.cs",
-              "RelativeDocumentMoniker": "Controllers\\StudentFilesController.cs",
-              "ToolTip": "D:\\github projects\\lms-angular-dotnet\\backend\\Controllers\\StudentFilesController.cs",
-              "RelativeToolTip": "Controllers\\StudentFilesController.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAowCwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T16:03:07.306Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "TeacherFileService.cs",
-              "DocumentMoniker": "D:\\github projects\\lms-angular-dotnet\\backend\\Services\\TeacherFileServices\\TeacherFileService.cs",
-              "RelativeDocumentMoniker": "Services\\TeacherFileServices\\TeacherFileService.cs",
-              "ToolTip": "D:\\github projects\\lms-angular-dotnet\\backend\\Services\\TeacherFileServices\\TeacherFileService.cs",
-              "RelativeToolTip": "Services\\TeacherFileServices\\TeacherFileService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD8AAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T15:56:44.923Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "TeacherFilesController.cs",
-              "DocumentMoniker": "D:\\github projects\\lms-angular-dotnet\\backend\\Controllers\\TeacherFilesController.cs",
-              "RelativeDocumentMoniker": "Controllers\\TeacherFilesController.cs",
-              "ToolTip": "D:\\github projects\\lms-angular-dotnet\\backend\\Controllers\\TeacherFilesController.cs",
-              "RelativeToolTip": "Controllers\\TeacherFilesController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB8AAABXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T16:15:59.985Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "TeachersController.cs",
-              "DocumentMoniker": "D:\\github projects\\lms-angular-dotnet\\backend\\Controllers\\TeachersController.cs",
-              "RelativeDocumentMoniker": "Controllers\\TeachersController.cs",
-              "ToolTip": "D:\\github projects\\lms-angular-dotnet\\backend\\Controllers\\TeachersController.cs",
-              "RelativeToolTip": "Controllers\\TeachersController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T13:39:24.911Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "ITeacherFileService.cs",
-              "DocumentMoniker": "D:\\github projects\\lms-angular-dotnet\\backend\\Services\\TeacherFileServices\\ITeacherFileService.cs",
-              "RelativeDocumentMoniker": "Services\\TeacherFileServices\\ITeacherFileService.cs",
-              "ToolTip": "D:\\github projects\\lms-angular-dotnet\\backend\\Services\\TeacherFileServices\\ITeacherFileService.cs",
-              "RelativeToolTip": "Services\\TeacherFileServices\\ITeacherFileService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T15:55:34.451Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 56,
-              "Title": "20250607160614_storeFiles.cs",
-              "DocumentMoniker": "D:\\github projects\\lms-angular-dotnet\\backend\\Migrations\\20250607160614_storeFiles.cs",
-              "RelativeDocumentMoniker": "Migrations\\20250607160614_storeFiles.cs",
-              "ToolTip": "D:\\github projects\\lms-angular-dotnet\\backend\\Migrations\\20250607160614_storeFiles.cs",
-              "RelativeToolTip": "Migrations\\20250607160614_storeFiles.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T16:06:14.49Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "TeacherFileRepository.cs",
-              "DocumentMoniker": "D:\\github projects\\lms-angular-dotnet\\backend\\Repositories\\TeacherFileRepo\\TeacherFileRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\TeacherFileRepo\\TeacherFileRepository.cs",
-              "ToolTip": "D:\\github projects\\lms-angular-dotnet\\backend\\Repositories\\TeacherFileRepo\\TeacherFileRepository.cs",
-              "RelativeToolTip": "Repositories\\TeacherFileRepo\\TeacherFileRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T15:50:57.422Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "IStudentFileService.cs",
-              "DocumentMoniker": "D:\\github projects\\lms-angular-dotnet\\backend\\Services\\StudentFileServices\\IStudentFileService.cs",
-              "RelativeDocumentMoniker": "Services\\StudentFileServices\\IStudentFileService.cs",
-              "ToolTip": "D:\\github projects\\lms-angular-dotnet\\backend\\Services\\StudentFileServices\\IStudentFileService.cs",
-              "RelativeToolTip": "Services\\StudentFileServices\\IStudentFileService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T15:54:14.532Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "ITeacherFileRepository.cs",
-              "DocumentMoniker": "D:\\github projects\\lms-angular-dotnet\\backend\\Repositories\\TeacherFileRepo\\ITeacherFileRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\TeacherFileRepo\\ITeacherFileRepository.cs",
-              "ToolTip": "D:\\github projects\\lms-angular-dotnet\\backend\\Repositories\\TeacherFileRepo\\ITeacherFileRepository.cs",
-              "RelativeToolTip": "Repositories\\TeacherFileRepo\\ITeacherFileRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T15:49:50.277Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "TeacherFileDto.cs",
-              "DocumentMoniker": "D:\\github projects\\lms-angular-dotnet\\backend\\DTOs\\TeacherFileDtos\\TeacherFileDto.cs",
-              "RelativeDocumentMoniker": "DTOs\\TeacherFileDtos\\TeacherFileDto.cs",
-              "ToolTip": "D:\\github projects\\lms-angular-dotnet\\backend\\DTOs\\TeacherFileDtos\\TeacherFileDto.cs",
-              "RelativeToolTip": "DTOs\\TeacherFileDtos\\TeacherFileDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T15:46:54.522Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "CreateTeacherFileDto.cs",
-              "DocumentMoniker": "D:\\github projects\\lms-angular-dotnet\\backend\\DTOs\\TeacherFileDtos\\CreateTeacherFileDto.cs",
-              "RelativeDocumentMoniker": "DTOs\\TeacherFileDtos\\CreateTeacherFileDto.cs",
-              "ToolTip": "D:\\github projects\\lms-angular-dotnet\\backend\\DTOs\\TeacherFileDtos\\CreateTeacherFileDto.cs",
-              "RelativeToolTip": "DTOs\\TeacherFileDtos\\CreateTeacherFileDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T15:46:05.83Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "TeacherFile.cs",
-              "DocumentMoniker": "D:\\github projects\\lms-angular-dotnet\\backend\\Models\\TeacherFile.cs",
-              "RelativeDocumentMoniker": "Models\\TeacherFile.cs",
-              "ToolTip": "D:\\github projects\\lms-angular-dotnet\\backend\\Models\\TeacherFile.cs",
-              "RelativeToolTip": "Models\\TeacherFile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T15:40:09.501Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "AuthResponse.cs",
-              "DocumentMoniker": "D:\\github projects\\lms-angular-dotnet\\backend\\DTOs\\UserDros\\AuthResponse.cs",
-              "RelativeDocumentMoniker": "DTOs\\UserDros\\AuthResponse.cs",
-              "ToolTip": "D:\\github projects\\lms-angular-dotnet\\backend\\DTOs\\UserDros\\AuthResponse.cs",
-              "RelativeToolTip": "DTOs\\UserDros\\AuthResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-06T05:16:13.475Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "ITeacherService.cs",
-              "DocumentMoniker": "D:\\github projects\\lms-angular-dotnet\\backend\\Services\\TeacherServices\\ITeacherService.cs",
-              "RelativeDocumentMoniker": "Services\\TeacherServices\\ITeacherService.cs",
-              "ToolTip": "D:\\github projects\\lms-angular-dotnet\\backend\\Services\\TeacherServices\\ITeacherService.cs",
-              "RelativeToolTip": "Services\\TeacherServices\\ITeacherService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T13:40:35.933Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
               "Title": "IStudentService.cs",
               "DocumentMoniker": "D:\\github projects\\lms-angular-dotnet\\backend\\Services\\StudentServices\\IStudentService.cs",
               "RelativeDocumentMoniker": "Services\\StudentServices\\IStudentService.cs",
@@ -759,127 +520,43 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "AuthService.cs",
-              "DocumentMoniker": "D:\\github projects\\lms-angular-dotnet\\backend\\Services\\UserServices\\AuthService.cs",
-              "RelativeDocumentMoniker": "Services\\UserServices\\AuthService.cs",
-              "ToolTip": "D:\\github projects\\lms-angular-dotnet\\backend\\Services\\UserServices\\AuthService.cs",
-              "RelativeToolTip": "Services\\UserServices\\AuthService.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAIA3wDAAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-06T05:23:36.056Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "D:\\github projects\\lms-angular-dotnet\\backend\\Repositories\\UserRepo\\UserRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\UserRepo\\UserRepository.cs",
-              "ToolTip": "D:\\github projects\\lms-angular-dotnet\\backend\\Repositories\\UserRepo\\UserRepository.cs",
-              "RelativeToolTip": "Repositories\\UserRepo\\UserRepository.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAQwAwAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-06T05:17:43.988Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "TeacherService.cs",
-              "DocumentMoniker": "D:\\github projects\\lms-angular-dotnet\\backend\\Services\\TeacherServices\\TeacherService.cs",
-              "RelativeDocumentMoniker": "Services\\TeacherServices\\TeacherService.cs",
-              "ToolTip": "D:\\github projects\\lms-angular-dotnet\\backend\\Services\\TeacherServices\\TeacherService.cs",
-              "RelativeToolTip": "Services\\TeacherServices\\TeacherService.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAC0AAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T13:50:57.323Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 57,
-              "Title": "20250607141956_Teacher.cs",
-              "DocumentMoniker": "D:\\github projects\\lms-angular-dotnet\\backend\\Migrations\\20250607141956_Teacher.cs",
-              "RelativeDocumentMoniker": "Migrations\\20250607141956_Teacher.cs",
-              "ToolTip": "D:\\github projects\\lms-angular-dotnet\\backend\\Migrations\\20250607141956_Teacher.cs",
-              "RelativeToolTip": "Migrations\\20250607141956_Teacher.cs",
+              "Title": "20250608054350_teacherEnroll.cs",
+              "DocumentMoniker": "D:\\github projects\\lms-angular-dotnet\\backend\\Migrations\\20250608054350_teacherEnroll.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250608054350_teacherEnroll.cs",
+              "ToolTip": "D:\\github projects\\lms-angular-dotnet\\backend\\Migrations\\20250608054350_teacherEnroll.cs",
+              "RelativeToolTip": "Migrations\\20250608054350_teacherEnroll.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T14:19:57.033Z"
+              "WhenOpened": "2025-06-08T05:43:50.302Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
-              "Title": "20250606170519_initial.cs",
-              "DocumentMoniker": "D:\\github projects\\lms-angular-dotnet\\backend\\Migrations\\20250606170519_initial.cs",
-              "RelativeDocumentMoniker": "Migrations\\20250606170519_initial.cs",
-              "ToolTip": "D:\\github projects\\lms-angular-dotnet\\backend\\Migrations\\20250606170519_initial.cs",
-              "RelativeToolTip": "Migrations\\20250606170519_initial.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 23,
+              "Title": "TeachersController.cs",
+              "DocumentMoniker": "D:\\github projects\\lms-angular-dotnet\\backend\\Controllers\\TeachersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TeachersController.cs",
+              "ToolTip": "D:\\github projects\\lms-angular-dotnet\\backend\\Controllers\\TeachersController.cs",
+              "RelativeToolTip": "Controllers\\TeachersController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwCgAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-06T17:05:20.079Z"
+              "WhenOpened": "2025-06-07T13:39:24.911Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "D:\\github projects\\lms-angular-dotnet\\backend\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
-              "ToolTip": "D:\\github projects\\lms-angular-dotnet\\backend\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "Controllers\\AuthController.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAowCMAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 22,
+              "Title": "StudentsController.cs",
+              "DocumentMoniker": "D:\\github projects\\lms-angular-dotnet\\backend\\Controllers\\StudentsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\StudentsController.cs",
+              "ToolTip": "D:\\github projects\\lms-angular-dotnet\\backend\\Controllers\\StudentsController.cs",
+              "RelativeToolTip": "Controllers\\StudentsController.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAqwAoAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-06T05:25:39.37Z"
+              "WhenOpened": "2025-06-06T16:26:22.623Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
-              "Title": "20250606165444_Second.cs",
-              "DocumentMoniker": "D:\\github projects\\lms-angular-dotnet\\backend\\Migrations\\20250606165444_Second.cs",
-              "RelativeDocumentMoniker": "Migrations\\20250606165444_Second.cs",
-              "ToolTip": "D:\\github projects\\lms-angular-dotnet\\backend\\Migrations\\20250606165444_Second.cs",
-              "RelativeToolTip": "Migrations\\20250606165444_Second.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-06T16:54:44.215Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 47,
-              "Title": "20250606165702_third.cs",
-              "DocumentMoniker": "D:\\github projects\\lms-angular-dotnet\\backend\\Migrations\\20250606165702_third.cs",
-              "RelativeDocumentMoniker": "Migrations\\20250606165702_third.cs",
-              "ToolTip": "D:\\github projects\\lms-angular-dotnet\\backend\\Migrations\\20250606165702_third.cs",
-              "RelativeToolTip": "Migrations\\20250606165702_third.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-06T16:57:02.617Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 46,
-              "Title": "20250606170102_third.cs",
-              "DocumentMoniker": "D:\\github projects\\lms-angular-dotnet\\backend\\Migrations\\20250606170102_third.cs",
-              "RelativeDocumentMoniker": "Migrations\\20250606170102_third.cs",
-              "ToolTip": "D:\\github projects\\lms-angular-dotnet\\backend\\Migrations\\20250606170102_third.cs",
-              "RelativeToolTip": "Migrations\\20250606170102_third.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-06T17:01:02.452Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 45,
-              "Title": "20250606170122_initial.cs",
-              "DocumentMoniker": "D:\\github projects\\lms-angular-dotnet\\backend\\Migrations\\20250606170122_initial.cs",
-              "RelativeDocumentMoniker": "Migrations\\20250606170122_initial.cs",
-              "ToolTip": "D:\\github projects\\lms-angular-dotnet\\backend\\Migrations\\20250606170122_initial.cs",
-              "RelativeToolTip": "Migrations\\20250606170122_initial.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-06T17:01:22.518Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 21,
               "Title": "backend.csproj",
               "DocumentMoniker": "D:\\github projects\\lms-angular-dotnet\\backend\\backend.csproj",
               "RelativeDocumentMoniker": "backend.csproj",
@@ -891,43 +568,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
-              "Title": "IAuthService.cs",
-              "DocumentMoniker": "D:\\github projects\\lms-angular-dotnet\\backend\\Services\\UserServices\\IAuthService.cs",
-              "RelativeDocumentMoniker": "Services\\UserServices\\IAuthService.cs",
-              "ToolTip": "D:\\github projects\\lms-angular-dotnet\\backend\\Services\\UserServices\\IAuthService.cs",
-              "RelativeToolTip": "Services\\UserServices\\IAuthService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 58,
+              "Title": "20250608031614_InitialCreate.cs",
+              "DocumentMoniker": "D:\\github projects\\lms-angular-dotnet\\backend\\Migrations\\20250608031614_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250608031614_InitialCreate.cs",
+              "ToolTip": "D:\\github projects\\lms-angular-dotnet\\backend\\Migrations\\20250608031614_InitialCreate.cs",
+              "RelativeToolTip": "Migrations\\20250608031614_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-06T05:19:09.274Z"
+              "WhenOpened": "2025-06-08T03:16:14.978Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
-              "Title": "RegisterRequest.cs",
-              "DocumentMoniker": "D:\\github projects\\lms-angular-dotnet\\backend\\DTOs\\UserDros\\RegisterRequest.cs",
-              "RelativeDocumentMoniker": "DTOs\\UserDros\\RegisterRequest.cs",
-              "ToolTip": "D:\\github projects\\lms-angular-dotnet\\backend\\DTOs\\UserDros\\RegisterRequest.cs",
-              "RelativeToolTip": "DTOs\\UserDros\\RegisterRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-06T07:04:57.707Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 52,
-              "Title": "LoginRequest.cs",
-              "DocumentMoniker": "D:\\github projects\\lms-angular-dotnet\\backend\\DTOs\\UserDros\\LoginRequest.cs",
-              "RelativeDocumentMoniker": "DTOs\\UserDros\\LoginRequest.cs",
-              "ToolTip": "D:\\github projects\\lms-angular-dotnet\\backend\\DTOs\\UserDros\\LoginRequest.cs",
-              "RelativeToolTip": "DTOs\\UserDros\\LoginRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-06T05:15:46.876Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 24,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\github projects\\lms-angular-dotnet\\backend\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -939,7 +592,367 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "20250608030544_Enrollment.cs",
+              "DocumentMoniker": "D:\\github projects\\lms-angular-dotnet\\backend\\Migrations\\20250608030544_Enrollment.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250608030544_Enrollment.cs",
+              "ToolTip": "D:\\github projects\\lms-angular-dotnet\\backend\\Migrations\\20250608030544_Enrollment.cs",
+              "RelativeToolTip": "Migrations\\20250608030544_Enrollment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T03:05:44.718Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\github projects\\lms-angular-dotnet\\backend\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "D:\\github projects\\lms-angular-dotnet\\backend\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T05:09:39.668Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "AuthResponse.cs",
+              "DocumentMoniker": "D:\\github projects\\lms-angular-dotnet\\backend\\DTOs\\UserDros\\AuthResponse.cs",
+              "RelativeDocumentMoniker": "DTOs\\UserDros\\AuthResponse.cs",
+              "ToolTip": "D:\\github projects\\lms-angular-dotnet\\backend\\DTOs\\UserDros\\AuthResponse.cs",
+              "RelativeToolTip": "DTOs\\UserDros\\AuthResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T05:16:13.475Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "ITeacherRepository.cs",
+              "DocumentMoniker": "D:\\github projects\\lms-angular-dotnet\\backend\\Repositories\\TeacherRepo\\ITeacherRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\TeacherRepo\\ITeacherRepository.cs",
+              "ToolTip": "D:\\github projects\\lms-angular-dotnet\\backend\\Repositories\\TeacherRepo\\ITeacherRepository.cs",
+              "RelativeToolTip": "Repositories\\TeacherRepo\\ITeacherRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T13:58:14.436Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "JwtTokenGenerator.cs",
+              "DocumentMoniker": "D:\\github projects\\lms-angular-dotnet\\backend\\Helpers\\JwtTokenGenerator.cs",
+              "RelativeDocumentMoniker": "Helpers\\JwtTokenGenerator.cs",
+              "ToolTip": "D:\\github projects\\lms-angular-dotnet\\backend\\Helpers\\JwtTokenGenerator.cs",
+              "RelativeToolTip": "Helpers\\JwtTokenGenerator.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwCUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T05:24:28.004Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "IStudentRepository.cs",
+              "DocumentMoniker": "D:\\github projects\\lms-angular-dotnet\\backend\\Repositories\\StudentRepo\\IStudentRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\StudentRepo\\IStudentRepository.cs",
+              "ToolTip": "D:\\github projects\\lms-angular-dotnet\\backend\\Repositories\\StudentRepo\\IStudentRepository.cs",
+              "RelativeToolTip": "Repositories\\StudentRepo\\IStudentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T16:19:11.434Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Student.cs",
+              "DocumentMoniker": "D:\\github projects\\lms-angular-dotnet\\backend\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "Models\\Student.cs",
+              "ToolTip": "D:\\github projects\\lms-angular-dotnet\\backend\\Models\\Student.cs",
+              "RelativeToolTip": "Models\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T16:14:35.577Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Teacher.cs",
+              "DocumentMoniker": "D:\\github projects\\lms-angular-dotnet\\backend\\Models\\Teacher.cs",
+              "RelativeDocumentMoniker": "Models\\Teacher.cs",
+              "ToolTip": "D:\\github projects\\lms-angular-dotnet\\backend\\Models\\Teacher.cs",
+              "RelativeToolTip": "Models\\Teacher.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T13:41:04.202Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "D:\\github projects\\lms-angular-dotnet\\backend\\Mapping\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "Mapping\\MappingProfile.cs",
+              "ToolTip": "D:\\github projects\\lms-angular-dotnet\\backend\\Mapping\\MappingProfile.cs",
+              "RelativeToolTip": "Mapping\\MappingProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T16:50:53.691Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "CreateTeacherDto.cs",
+              "DocumentMoniker": "D:\\github projects\\lms-angular-dotnet\\backend\\DTOs\\TeacherDtos\\CreateTeacherDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\TeacherDtos\\CreateTeacherDto.cs",
+              "ToolTip": "D:\\github projects\\lms-angular-dotnet\\backend\\DTOs\\TeacherDtos\\CreateTeacherDto.cs",
+              "RelativeToolTip": "DTOs\\TeacherDtos\\CreateTeacherDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T13:46:00.613Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "CreateStudentDto.cs",
+              "DocumentMoniker": "D:\\github projects\\lms-angular-dotnet\\backend\\DTOs\\StudentDtos\\CreateStudentDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\StudentDtos\\CreateStudentDto.cs",
+              "ToolTip": "D:\\github projects\\lms-angular-dotnet\\backend\\DTOs\\StudentDtos\\CreateStudentDto.cs",
+              "RelativeToolTip": "DTOs\\StudentDtos\\CreateStudentDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T16:16:03.396Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "TeacherRepository.cs",
+              "DocumentMoniker": "D:\\github projects\\lms-angular-dotnet\\backend\\Repositories\\TeacherRepo\\TeacherRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\TeacherRepo\\TeacherRepository.cs",
+              "ToolTip": "D:\\github projects\\lms-angular-dotnet\\backend\\Repositories\\TeacherRepo\\TeacherRepository.cs",
+              "RelativeToolTip": "Repositories\\TeacherRepo\\TeacherRepository.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAgwDEAAABeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T13:59:07.164Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "StudentRepository.cs",
+              "DocumentMoniker": "D:\\github projects\\lms-angular-dotnet\\backend\\Repositories\\StudentRepo\\StudentRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\StudentRepo\\StudentRepository.cs",
+              "ToolTip": "D:\\github projects\\lms-angular-dotnet\\backend\\Repositories\\StudentRepo\\StudentRepository.cs",
+              "RelativeToolTip": "Repositories\\StudentRepo\\StudentRepository.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAowC8AAABdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T16:19:37.565Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "UpdateTeacherDto.cs",
+              "DocumentMoniker": "D:\\github projects\\lms-angular-dotnet\\backend\\DTOs\\TeacherDtos\\UpdateTeacherDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\TeacherDtos\\UpdateTeacherDto.cs",
+              "ToolTip": "D:\\github projects\\lms-angular-dotnet\\backend\\DTOs\\TeacherDtos\\UpdateTeacherDto.cs",
+              "RelativeToolTip": "DTOs\\TeacherDtos\\UpdateTeacherDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T13:47:29.941Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "StudentService.cs",
+              "DocumentMoniker": "D:\\github projects\\lms-angular-dotnet\\backend\\Services\\StudentServices\\StudentService.cs",
+              "RelativeDocumentMoniker": "Services\\StudentServices\\StudentService.cs",
+              "ToolTip": "D:\\github projects\\lms-angular-dotnet\\backend\\Services\\StudentServices\\StudentService.cs",
+              "RelativeToolTip": "Services\\StudentServices\\StudentService.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwAoAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T16:22:49.567Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "TeacherResponseDto.cs",
+              "DocumentMoniker": "D:\\github projects\\lms-angular-dotnet\\backend\\DTOs\\TeacherDtos\\TeacherResponseDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\TeacherDtos\\TeacherResponseDto.cs",
+              "ToolTip": "D:\\github projects\\lms-angular-dotnet\\backend\\DTOs\\TeacherDtos\\TeacherResponseDto.cs",
+              "RelativeToolTip": "DTOs\\TeacherDtos\\TeacherResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T13:49:30.178Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "UpdateStudentDto.cs",
+              "DocumentMoniker": "D:\\github projects\\lms-angular-dotnet\\backend\\DTOs\\StudentDtos\\UpdateStudentDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\StudentDtos\\UpdateStudentDto.cs",
+              "ToolTip": "D:\\github projects\\lms-angular-dotnet\\backend\\DTOs\\StudentDtos\\UpdateStudentDto.cs",
+              "RelativeToolTip": "DTOs\\StudentDtos\\UpdateStudentDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T16:16:30.915Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "StudentResponseDto.cs",
+              "DocumentMoniker": "D:\\github projects\\lms-angular-dotnet\\backend\\DTOs\\StudentDtos\\StudentResponseDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\StudentDtos\\StudentResponseDto.cs",
+              "ToolTip": "D:\\github projects\\lms-angular-dotnet\\backend\\DTOs\\StudentDtos\\StudentResponseDto.cs",
+              "RelativeToolTip": "DTOs\\StudentDtos\\StudentResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T16:17:03.238Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "ITeacherService.cs",
+              "DocumentMoniker": "D:\\github projects\\lms-angular-dotnet\\backend\\Services\\TeacherServices\\ITeacherService.cs",
+              "RelativeDocumentMoniker": "Services\\TeacherServices\\ITeacherService.cs",
+              "ToolTip": "D:\\github projects\\lms-angular-dotnet\\backend\\Services\\TeacherServices\\ITeacherService.cs",
+              "RelativeToolTip": "Services\\TeacherServices\\ITeacherService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T13:40:35.933Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "D:\\github projects\\lms-angular-dotnet\\backend\\Services\\UserServices\\AuthService.cs",
+              "RelativeDocumentMoniker": "Services\\UserServices\\AuthService.cs",
+              "ToolTip": "D:\\github projects\\lms-angular-dotnet\\backend\\Services\\UserServices\\AuthService.cs",
+              "RelativeToolTip": "Services\\UserServices\\AuthService.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAIA3wDAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T05:23:36.056Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "D:\\github projects\\lms-angular-dotnet\\backend\\Repositories\\UserRepo\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\UserRepo\\UserRepository.cs",
+              "ToolTip": "D:\\github projects\\lms-angular-dotnet\\backend\\Repositories\\UserRepo\\UserRepository.cs",
+              "RelativeToolTip": "Repositories\\UserRepo\\UserRepository.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwAwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T05:17:43.988Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "TeacherService.cs",
+              "DocumentMoniker": "D:\\github projects\\lms-angular-dotnet\\backend\\Services\\TeacherServices\\TeacherService.cs",
+              "RelativeDocumentMoniker": "Services\\TeacherServices\\TeacherService.cs",
+              "ToolTip": "D:\\github projects\\lms-angular-dotnet\\backend\\Services\\TeacherServices\\TeacherService.cs",
+              "RelativeToolTip": "Services\\TeacherServices\\TeacherService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAC0AAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T13:50:57.323Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\github projects\\lms-angular-dotnet\\backend\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
+              "ToolTip": "D:\\github projects\\lms-angular-dotnet\\backend\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Controllers\\AuthController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAowCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T05:25:39.37Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "20250606165444_Second.cs",
+              "DocumentMoniker": "D:\\github projects\\lms-angular-dotnet\\backend\\Migrations\\20250606165444_Second.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250606165444_Second.cs",
+              "ToolTip": "D:\\github projects\\lms-angular-dotnet\\backend\\Migrations\\20250606165444_Second.cs",
+              "RelativeToolTip": "Migrations\\20250606165444_Second.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T16:54:44.215Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "20250606165702_third.cs",
+              "DocumentMoniker": "D:\\github projects\\lms-angular-dotnet\\backend\\Migrations\\20250606165702_third.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250606165702_third.cs",
+              "ToolTip": "D:\\github projects\\lms-angular-dotnet\\backend\\Migrations\\20250606165702_third.cs",
+              "RelativeToolTip": "Migrations\\20250606165702_third.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T16:57:02.617Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "20250606170102_third.cs",
+              "DocumentMoniker": "D:\\github projects\\lms-angular-dotnet\\backend\\Migrations\\20250606170102_third.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250606170102_third.cs",
+              "ToolTip": "D:\\github projects\\lms-angular-dotnet\\backend\\Migrations\\20250606170102_third.cs",
+              "RelativeToolTip": "Migrations\\20250606170102_third.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T17:01:02.452Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "20250606170122_initial.cs",
+              "DocumentMoniker": "D:\\github projects\\lms-angular-dotnet\\backend\\Migrations\\20250606170122_initial.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250606170122_initial.cs",
+              "ToolTip": "D:\\github projects\\lms-angular-dotnet\\backend\\Migrations\\20250606170122_initial.cs",
+              "RelativeToolTip": "Migrations\\20250606170122_initial.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T17:01:22.518Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "D:\\github projects\\lms-angular-dotnet\\backend\\Services\\UserServices\\IAuthService.cs",
+              "RelativeDocumentMoniker": "Services\\UserServices\\IAuthService.cs",
+              "ToolTip": "D:\\github projects\\lms-angular-dotnet\\backend\\Services\\UserServices\\IAuthService.cs",
+              "RelativeToolTip": "Services\\UserServices\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T05:19:09.274Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "RegisterRequest.cs",
+              "DocumentMoniker": "D:\\github projects\\lms-angular-dotnet\\backend\\DTOs\\UserDros\\RegisterRequest.cs",
+              "RelativeDocumentMoniker": "DTOs\\UserDros\\RegisterRequest.cs",
+              "ToolTip": "D:\\github projects\\lms-angular-dotnet\\backend\\DTOs\\UserDros\\RegisterRequest.cs",
+              "RelativeToolTip": "DTOs\\UserDros\\RegisterRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T07:04:57.707Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 54,
+              "Title": "LoginRequest.cs",
+              "DocumentMoniker": "D:\\github projects\\lms-angular-dotnet\\backend\\DTOs\\UserDros\\LoginRequest.cs",
+              "RelativeDocumentMoniker": "DTOs\\UserDros\\LoginRequest.cs",
+              "ToolTip": "D:\\github projects\\lms-angular-dotnet\\backend\\DTOs\\UserDros\\LoginRequest.cs",
+              "RelativeToolTip": "DTOs\\UserDros\\LoginRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T05:15:46.876Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
               "Title": "20250606053141_Init.cs",
               "DocumentMoniker": "D:\\github projects\\Learning-System-Nextjs-dotnet\\backend\\Migrations\\20250606053141_Init.cs",
               "RelativeDocumentMoniker": "..\\..\\Learning-System-Nextjs-dotnet\\backend\\Migrations\\20250606053141_Init.cs",
@@ -951,7 +964,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 56,
               "Title": "IUserRepository.cs",
               "DocumentMoniker": "D:\\github projects\\lms-angular-dotnet\\backend\\Repositories\\UserRepo\\IUserRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\UserRepo\\IUserRepository.cs",

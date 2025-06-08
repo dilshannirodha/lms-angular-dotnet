@@ -19,6 +19,28 @@ namespace backend.Migrations
                 .HasAnnotation("ProductVersion", "8.0.5")
                 .HasAnnotation("Relational:MaxIdentifierLength", 64);
 
+            modelBuilder.Entity("backend.Models.Enrollment", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    b.Property<string>("CourseId")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.Property<DateTime>("EnrolledAt")
+                        .HasColumnType("datetime(6)");
+
+                    b.Property<string>("StudentId")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Enrollments");
+                });
+
             modelBuilder.Entity("backend.Models.Student", b =>
                 {
                     b.Property<string>("StudentId")
@@ -46,66 +68,6 @@ namespace backend.Migrations
                     b.HasKey("StudentId");
 
                     b.ToTable("Students");
-                });
-
-            modelBuilder.Entity("backend.Models.StudentFile", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    b.Property<string>("FileName")
-                        .IsRequired()
-                        .HasColumnType("longtext");
-
-                    b.Property<string>("FilePath")
-                        .IsRequired()
-                        .HasColumnType("longtext");
-
-                    b.Property<string>("StudentId")
-                        .IsRequired()
-                        .HasColumnType("longtext");
-
-                    b.Property<DateTime>("UploadedAt")
-                        .HasColumnType("datetime(6)");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("StudentFiles");
-                });
-
-            modelBuilder.Entity("backend.Models.StudentUpload", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    b.Property<string>("Feedback")
-                        .HasColumnType("longtext");
-
-                    b.Property<decimal>("Marks")
-                        .HasColumnType("decimal(65,30)");
-
-                    b.Property<string>("StudentId")
-                        .IsRequired()
-                        .HasColumnType("varchar(100)");
-
-                    b.Property<string>("Subject")
-                        .IsRequired()
-                        .HasColumnType("longtext");
-
-                    b.Property<DateTime>("UploadDate")
-                        .HasColumnType("datetime(6)");
-
-                    b.Property<string>("Uploads")
-                        .IsRequired()
-                        .HasColumnType("longtext");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("StudentId");
-
-                    b.ToTable("StudentUploads");
                 });
 
             modelBuilder.Entity("backend.Models.Teacher", b =>
@@ -137,30 +99,26 @@ namespace backend.Migrations
                     b.ToTable("Teachers");
                 });
 
-            modelBuilder.Entity("backend.Models.TeacherFile", b =>
+            modelBuilder.Entity("backend.Models.TeacherEnrollment", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    b.Property<string>("FileName")
+                    b.Property<string>("CourseId")
                         .IsRequired()
                         .HasColumnType("longtext");
 
-                    b.Property<string>("FilePath")
-                        .IsRequired()
-                        .HasColumnType("longtext");
+                    b.Property<DateTime>("EnrolledAt")
+                        .HasColumnType("datetime(6)");
 
                     b.Property<string>("TeacherId")
                         .IsRequired()
                         .HasColumnType("longtext");
 
-                    b.Property<DateTime>("UploadedAt")
-                        .HasColumnType("datetime(6)");
-
                     b.HasKey("Id");
 
-                    b.ToTable("TeacherFiles");
+                    b.ToTable("TeacherEnrollments");
                 });
 
             modelBuilder.Entity("backend.Models.User", b =>
@@ -184,22 +142,6 @@ namespace backend.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Users");
-                });
-
-            modelBuilder.Entity("backend.Models.StudentUpload", b =>
-                {
-                    b.HasOne("backend.Models.Student", "Student")
-                        .WithMany("Uploads")
-                        .HasForeignKey("StudentId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Student");
-                });
-
-            modelBuilder.Entity("backend.Models.Student", b =>
-                {
-                    b.Navigation("Uploads");
                 });
 #pragma warning restore 612, 618
         }
