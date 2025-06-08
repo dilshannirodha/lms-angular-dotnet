@@ -3,6 +3,7 @@ import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 import { EnrollmentDto } from '../models/enrollment-dto.model';
 import { CreateEnrollmentDto } from '../models/create-enrollment.dto.model';
+import { CourseIdDto } from '../models/course-id.dto.model';
 
 @Injectable({
   providedIn: 'root'
@@ -30,5 +31,9 @@ export class EnrollmentService {
 
   delete(id: number): Observable<void> {
     return this.http.delete<void>(`${this.baseUrl}/${id}`);
+  }
+
+   getCourseIdsByStudentId(studentId: string): Observable<CourseIdDto[]> {
+    return this.http.get<CourseIdDto[]>(`${this.baseUrl}/student/${studentId}/course-ids`);
   }
 }

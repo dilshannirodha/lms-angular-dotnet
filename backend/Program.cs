@@ -15,6 +15,16 @@ using backend.Services.TeacherEnrollmentServices;
 using backend.Repositories.TeacherEnrollmentRepo;
 using backend.Repositories.StudentEnrollmentRepo;
 using backend.Services.StudentEnrollmentServices;
+using backend.Repositories.CourseRepo;
+using backend.Services.CourseService;
+using backend.Services.GetIdService;
+using backend.Repositories.GetIdRepo;
+using backend.Repositories.AssignmentRepo;
+using backend.Services.AssignmentServices;
+using backend.Repositories.UploadedFileRepo;
+using backend.Services.UploadedFileServices;
+using backend.Repositories.NotificationRepo;
+using backend.Services.NotificationServices;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -64,12 +74,24 @@ builder.Services.AddScoped<IStudentRepository, StudentRepository>();
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<ITeacherEnrollmentRepository, TeacherEnrollmentRepository>();
 builder.Services.AddScoped<IEnrollmentRepository, EnrollmentRepository>();
+builder.Services.AddScoped<ICourseRepository, CourseRepository>();
+builder.Services.AddScoped<IGetStudentIdRepo, GetStudentIdRepo>();
+builder.Services.AddScoped<IGetTeacherIdRepo, GetTeacherIdRepo>();
+builder.Services.AddScoped<IAssignmentRepository, AssignmentRepository>();
+builder.Services.AddScoped<IUploadedFileRepository, UploadedFileRepository>();
+builder.Services.AddScoped<INotificationRepository, NotificationRepository>();
+
 
 builder.Services.AddScoped<IAuthService, AuthService>();
 builder.Services.AddScoped<ITeacherService, TeacherService>();
 builder.Services.AddScoped<IStudentService, StudentService>();
 builder.Services.AddScoped<IEnrollmentService, EnrollmentService>();
 builder.Services.AddScoped<ITeacherEnrollmentService, TeacherEnrollmentService>();
+builder.Services.AddScoped<ICourseService, CourseService>();
+builder.Services.AddScoped<IGetIdService, GetIdService>();
+builder.Services.AddScoped<IAssignmentService, AssignmentService>();
+builder.Services.AddScoped<IUploadedFileService, UploadedFileService>();
+builder.Services.AddScoped<INotificationService, NotificationService>();
 
 builder.Services.AddSingleton<JwtTokenGenerator>();
 

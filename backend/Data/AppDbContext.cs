@@ -16,6 +16,12 @@ namespace backend.Data
         public DbSet<Teacher> Teachers { get; set; }
         public DbSet<Enrollment> Enrollments { get; set; }
         public DbSet<TeacherEnrollment> TeacherEnrollments { get; set; }
+        public DbSet<Course> Courses { get; set; }
+        public DbSet<Assignment> Assignments { get; set; }
+        public DbSet<Notification> Notifications { get; set; }
+
+        public DbSet<UploadedFile> UploadedFiles { get; set; }
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Student>()
@@ -24,7 +30,8 @@ namespace backend.Data
             modelBuilder.Entity<Teacher>()
                 .HasKey(t => t.TeacherId);
 
-            
+            modelBuilder.Entity<Course>()
+                .HasKey(c => c.CourseId);
         }
     }
 }

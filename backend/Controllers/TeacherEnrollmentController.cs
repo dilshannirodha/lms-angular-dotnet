@@ -53,7 +53,7 @@ namespace backend.Controllers
             return NoContent();
         }
 
-        [HttpGet("student/{studentId}/course-ids")]
+        [HttpGet("teacher/{teacherId}/course-ids")]
         public async Task<IActionResult> GetCourseIdsByTeacherId(string teacherId)
         {
             var result = await _service.GetCourseIdsByTeacherIdAsync(teacherId);
