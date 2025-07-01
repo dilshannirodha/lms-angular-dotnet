@@ -15,6 +15,7 @@ import { AssignmentViewerComponent } from './components/assignment-view/assignme
 import { UploadedFilesComponent } from './components/Upload-files/uploaded-files.component';
 import { NotificationComponent } from './components/notification/notification.component';
 import { ViewNotificationsComponent } from './components/view-notification/view-notification.component';
+import { CourseNameComponent } from './components/course-names/courseName.component';
 
 export const routes: Routes = [
   { path: 'login', component: LoginComponent },
@@ -22,6 +23,7 @@ export const routes: Routes = [
     component: DashboardComponent, 
     canActivate: [AuthGuard] ,
     children: [
+      { path: 'course-name-assign', component: CourseNameComponent},
       { path: 'student-course-list', component: StudentCourseList },
       { path: 'teacher-course-list', component: TeacherCourseList},
       { path: 'teacher-courses/:courseId', component: AssignmentManagerComponent },

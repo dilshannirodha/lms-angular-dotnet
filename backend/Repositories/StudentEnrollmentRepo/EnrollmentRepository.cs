@@ -33,7 +33,7 @@ namespace backend.Repositories.StudentEnrollmentRepo
         }
 
         public async Task<bool> DeleteAsync(int id)
-        {
+        {   
             var enrollment = await _context.Enrollments.FindAsync(id);
             if (enrollment == null) return false;
             _context.Enrollments.Remove(enrollment);

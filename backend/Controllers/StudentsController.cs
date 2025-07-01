@@ -46,7 +46,7 @@ namespace backend.Controllers
 
         [HttpDelete("{studentId}")]
         public async Task<IActionResult> DeleteStudent(string studentId)
-        {
+        {   
             var result = await _studentService.DeleteStudentAsync(studentId);
             return result ? NoContent() : NotFound();
         }
